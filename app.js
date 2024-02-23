@@ -75,8 +75,8 @@ app.use("/apis/sharepoint/contactUpdate", contactUpdateRouter);
 var meetingDeleteRouter = require("./apis/sharepoint/meetingDelete");
 app.use("/apis/sharepoint/meetingDelete", meetingDeleteRouter);
 
-var meetingCreateRouter = require("./apis/sharepoint/meetingCreate");
-app.use("/apis/sharepoint/meetingCreate", meetingCreateRouter);
+var mailHistoryCreateRouter = require("./apis/sharepoint/mailHistoryCreate");
+app.use("/apis/sharepoint/mailHistoryCreate", mailHistoryCreateRouter);
 
 // app.use(express.static(__dirname + "/assets/tax_documents"));
 

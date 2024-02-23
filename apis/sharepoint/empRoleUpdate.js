@@ -39,7 +39,7 @@ router.post("/", async function (req, res, next) {
         }
       )
       .then((response) => {
-        res.send({ message: "Role updated" });
+        res.send({ message: "Employee Role updated" });
       })
       .catch((error) => {
         console.log(error);

@@ -5,26 +5,24 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/meetingCreate?token=abcd
+http://localhost:9000/apis/sharepoint/mailHistoryCreate?token=abcd
 
 Payload:-
   {
-
   }
-
 */
 
 router.post("/", async function (req, res, next) {
   try {
     let token = req.query.token;
-    let meetingPayload = req.body;
+    let mailHistoryPayload = req.body;
      axios
        .post(
-         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items`,
+         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('mailHistory')/items`,
          {
-           __metadata: { type: "SP.Data.MeetingDetailsListItem" },
+           __metadata: { type: "SP.Data.MailHistoryListItem" },
            // designation: "asdas",
-           ...meetingPayload,
+           ...mailHistoryPayload,
          },
          {
            headers: {
@@ -35,7 +33,7 @@ router.post("/", async function (req, res, next) {
          }
        )
        .then((response) => {
-         res.send({ message: "employee created" });
+         res.send({ message: "Email History created" });
        })
        .catch((error) => {
          console.log(error);

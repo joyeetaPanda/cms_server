@@ -15,34 +15,32 @@ Payload:-
 
 router.post("/", async function (req, res, next) {
   try {
-    console.log("called contact create");
     let token = req.query.token;
     let meetingPayload = req.body;
-    console.log("sjdj", contactPayload);
-   axios
-     .post(
-       `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items`,
-       {
-         __metadata: {
-           type: "SP.Data.MeetingDetailsListItem",
-         },
-         // designation: "asdas",
-         ...meetingPayload,
-       },
-       {
-         headers: {
-           "Content-Type": "application/json;odata=verbose",
-           Accept: "application/json;odata=verbose",
-           Authorization: "Bearer " + token,
-         },
-       }
-     )
-     .then((response) => {
-       res.send({ message: "Contact created" });
-     })
-     .catch((error) => {
-       console.log(error);
-     });
+    axios
+      .post(
+        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items`,
+        {
+          __metadata: {
+            type: "SP.Data.MeetingDetailsListItem",
+          },
+          // designation: "asdas",
+          ...meetingPayload,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json;odata=verbose",
+            Accept: "application/json;odata=verbose",
+            Authorization: "Bearer " + token,
+          },
+        }
+      )
+      .then((response) => {
+        res.send({ message: "Contact created" });
+      })
+      .catch((error) => {
+        console.log(error);
+      });
   } catch (e) {
     console.log({ error: e, fileName: __filename });
     res.send({ error: e, fileName: __filename });

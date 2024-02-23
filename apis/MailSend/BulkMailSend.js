@@ -119,23 +119,23 @@ router.post("/", async function (req, res, next) {
       },
     });
 
-    if (MAILTO.length > 0) {
-      MAILTO.map((val, index) => {
-        sendMailToUsers(
-          val.EMAIL_ID,
-          cc,
-          bcc,
-          val.NAME,
-          index,
-          MAILTO.length,
-          formData.SUBJECT,
-          formData.CONTENT,
-          formData.HTML,
-          attach
-        );
-      });
-    }
-    // res.send("test:comment if sendMailToUsers function called");
+    // if (MAILTO.length > 0) {
+    //   MAILTO.map((val, index) => {
+    //     sendMailToUsers(
+    //       val.EMAIL_ID,
+    //       cc,
+    //       bcc,
+    //       val.NAME,
+    //       index,
+    //       MAILTO.length,
+    //       formData.SUBJECT,
+    //       formData.CONTENT,
+    //       formData.HTML,
+    //       attach
+    //     );
+    //   });
+    // }
+    res.send("test:comment if sendMailToUsers function called");
   } catch (e) {
     console.log({ error: e, fileName: __filename });
     res.send({ error: e, fileName: __filename });

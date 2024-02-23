@@ -18,7 +18,6 @@ router.post("/", async function (req, res, next) {
     console.log("called contact create");
     let token = req.query.token;
     let contactPayload = req.body;
-    console.log("sjdj", contactPayload);
     axios
       .post(
         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('contactmanagementlist')/items`,
