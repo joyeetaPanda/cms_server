@@ -5,18 +5,22 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/ddOptionDelete?token=abcd&deleteID=123
+http://localhost:9000/apis/sharepoint/meetingDelete?token=abcd&deleteID=123
+
+Payload:-
+  {
+role:"admin"
+  }
+
 */
 
 router.post("/", async function (req, res, next) {
   try {
     let token = req.query.token;
     let deleteID = req.query.deleteID;
-    const url = `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('dropdownOptions')/items/getbyid('${deleteID}')`;
-
     axios
       .delete(
-        url,
+        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items/getbyid('${deleteID}')`,
 
         {
           headers: {

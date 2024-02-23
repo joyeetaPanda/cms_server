@@ -6,8 +6,6 @@ const clientData = require("../../constants/clientData");
 /*   
 API url: -   
 http://localhost:9000/apis/sharepoint/getAccessToken
-  
-
 */
 
 router.get("/", async function (req, res, next) {

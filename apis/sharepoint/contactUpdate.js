@@ -5,21 +5,30 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/ddOptionDelete?token=abcd&deleteID=123
+http://localhost:9000/apis/sharepoint/contactUpdate?token=abcd$contactDataId=123
+
+Payload:-
+  {
+  }
 */
 
 router.post("/", async function (req, res, next) {
   try {
     let token = req.query.token;
-    let deleteID = req.query.deleteID;
-    const url = `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('dropdownOptions')/items/getbyid('${deleteID}')`;
-
+    let contactDataId = req.query.contactDataId;
+    let contactPayload=req.body
     axios
-      .delete(
-        url,
+      .post(
+        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('contactmanagementlist')/items/getbyid('${contactDataId}')`,
+        {
+          __metadata: { type: "SP.Data.ContactmanagementlistListItem" },
+          // designation: "asdas",
+          ...contactPayload,
+        },
 
         {
           headers: {
+            "X-HTTP-Method": "MERGE",
             accept: "application/json;odata=verbose",
             "content-type": "application/json;odata=verbose",
             "If-Match": "*",
@@ -28,7 +37,7 @@ router.post("/", async function (req, res, next) {
         }
       )
       .then((response) => {
-        res.send({ message: "Role updated" });
+        res.send({ message: "Contact Deleted" });
       })
       .catch((error) => {
         console.log(error);

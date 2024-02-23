@@ -66,6 +66,18 @@ app.use("/apis/sharepoint/ddOptionDelete", ddOptionDeleteRouter);
 var ddOptionCreateRouter = require("./apis/sharepoint/ddOptionCreate");
 app.use("/apis/sharepoint/ddOptionCreate", ddOptionCreateRouter);
 
+var contactDeleteUpdateRouter = require("./apis/sharepoint/contactDeleteUpdate");
+app.use("/apis/sharepoint/contactDeleteUpdate", contactDeleteUpdateRouter);
+
+var contactUpdateRouter = require("./apis/sharepoint/contactUpdate");
+app.use("/apis/sharepoint/contactUpdate", contactUpdateRouter);
+
+var meetingDeleteRouter = require("./apis/sharepoint/meetingDelete");
+app.use("/apis/sharepoint/meetingDelete", meetingDeleteRouter);
+
+var meetingCreateRouter = require("./apis/sharepoint/meetingCreate");
+app.use("/apis/sharepoint/meetingCreate", meetingCreateRouter);
+
 // app.use(express.static(__dirname + "/assets/tax_documents"));
 
 app.use(function (err, req, res, next) {
