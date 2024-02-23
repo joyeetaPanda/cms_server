@@ -1,0 +1,4781 @@
+[{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade0"
+  },
+  "COUNTRY_NAME": "Andorra",
+  "COUNTRY_KEY": "AD",
+  "STATE": [],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade1"
+  },
+  "COUNTRY_NAME": "United Arab Emirates",
+  "COUNTRY_KEY": "AE",
+  "STATE": [
+    "Abu Dhabi",
+    "Ajman",
+    "Dubai",
+    "Fujairah",
+    "Ras Al Khaimah",
+    "Sharjah",
+    "Umm Al Quwain"
+  ],
+  "TIME_ZONE": "UTC+4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade2"
+  },
+  "COUNTRY_NAME": "Afghanistan",
+  "COUNTRY_KEY": "AF",
+  "STATE": [
+    "Jalalabad",
+    "Kabul"
+  ],
+  "TIME_ZONE": "AFGHAN",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade3"
+  },
+  "COUNTRY_NAME": "Antigua and Barbuda",
+  "COUNTRY_KEY": "AG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade4"
+  },
+  "COUNTRY_NAME": "Anguilla",
+  "COUNTRY_KEY": "AI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade5"
+  },
+  "COUNTRY_NAME": "Albania",
+  "COUNTRY_KEY": "AL",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade6"
+  },
+  "COUNTRY_NAME": "Armenia",
+  "COUNTRY_KEY": "AM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade7"
+  },
+  "COUNTRY_NAME": "Dutch Antilles",
+  "COUNTRY_KEY": "AN",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade8"
+  },
+  "COUNTRY_NAME": "Angola",
+  "COUNTRY_KEY": "AO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ade9"
+  },
+  "COUNTRY_NAME": "Antarctica",
+  "COUNTRY_KEY": "AQ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adea"
+  },
+  "COUNTRY_NAME": "Argentina",
+  "COUNTRY_KEY": "AR",
+  "STATE": [
+    "Buenos Aires",
+    "Capital Federal",
+    "Catamarca",
+    "Chaco",
+    "Chubut",
+    "CORDOBA",
+    "Córdoba",
+    "Corrientes",
+    "Entre Rios",
+    "Formosa",
+    "Jujuy",
+    "La Pampa",
+    "La Rioja",
+    "Mendoza",
+    "Misiones",
+    "Neuquen",
+    "Rio Negro",
+    "Salta",
+    "San Juan",
+    "San Luis",
+    "Santa Cruz",
+    "Santa Fe",
+    "Santa Fé",
+    "Santiago del Estero",
+    "Tierra de Fuego",
+    "Tucuman",
+    "Tucumán"
+  ],
+  "TIME_ZONE": "ART",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adeb"
+  },
+  "COUNTRY_NAME": "American Samoa",
+  "COUNTRY_KEY": "AS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adec"
+  },
+  "COUNTRY_NAME": "Austria",
+  "COUNTRY_KEY": "AT",
+  "STATE": [
+    "Burgenland",
+    "Carinthia",
+    "Kärnten",
+    "Lower Austria",
+    "Niederösterreich",
+    "Oberösterreich",
+    "Salzburg",
+    "Steiermark",
+    "Styria",
+    "Tirol",
+    "Tyrol",
+    "Upper Austria",
+    "Vienna",
+    "Vorarlberg",
+    "Wien"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aded"
+  },
+  "COUNTRY_NAME": "Australia",
+  "COUNTRY_KEY": "AU",
+  "STATE": [
+    "Aust Capital Terr",
+    "New South Wales",
+    "Northern Territory",
+    "Queensland",
+    "South Australia",
+    "Tasmania",
+    "Victoria",
+    "West Australia",
+    "Western Australia"
+  ],
+  "TIME_ZONE": "AUSACT",
+  "POSTAL_CODE_LENGTH": "7"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adee"
+  },
+  "COUNTRY_NAME": "Aruba",
+  "COUNTRY_KEY": "AW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adef"
+  },
+  "COUNTRY_NAME": "Azerbaijan",
+  "COUNTRY_KEY": "AZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "AZT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf0"
+  },
+  "COUNTRY_NAME": "Bosnia and Herzegovina",
+  "COUNTRY_KEY": "BA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf1"
+  },
+  "COUNTRY_NAME": "Barbados",
+  "COUNTRY_KEY": "BB",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf2"
+  },
+  "COUNTRY_NAME": "Bangladesh",
+  "COUNTRY_KEY": "BD",
+  "STATE": [
+    "Dhaka"
+  ],
+  "TIME_ZONE": "BDT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf3"
+  },
+  "COUNTRY_NAME": "Belgium",
+  "COUNTRY_KEY": "BE",
+  "STATE": [
+    "Antwerp",
+    "Antwerpen",
+    "Brabant (Flemish)",
+    "Brabant (Walloon)",
+    "Brussels (Capital)",
+    "Brussels Hoofdst.ge.",
+    "Hainaut",
+    "Liege",
+    "Limburg",
+    "Luxembourg",
+    "Namur",
+    "Oost-Vlaanderen",
+    "Vlaams Brabant",
+    "Waals Brabant",
+    "West-Vlaanderen"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf4"
+  },
+  "COUNTRY_NAME": "Burkina Faso",
+  "COUNTRY_KEY": "BF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf5"
+  },
+  "COUNTRY_NAME": "Bulgaria",
+  "COUNTRY_KEY": "BG",
+  "STATE": [
+    "Burgas",
+    "Grad Sofiya",
+    "Khaskovo",
+    "Lovech",
+    "Montana",
+    "Plovdiv",
+    "Ruse",
+    "Sofiya",
+    "Varna"
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf6"
+  },
+  "COUNTRY_NAME": "Bahrain",
+  "COUNTRY_KEY": "BH",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf7"
+  },
+  "COUNTRY_NAME": "Burundi",
+  "COUNTRY_KEY": "BI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf8"
+  },
+  "COUNTRY_NAME": "Benin",
+  "COUNTRY_KEY": "BJ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adf9"
+  },
+  "COUNTRY_NAME": "Blue",
+  "COUNTRY_KEY": "BL",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adfa"
+  },
+  "COUNTRY_NAME": "Bermuda",
+  "COUNTRY_KEY": "BM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "AST",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adfb"
+  },
+  "COUNTRY_NAME": "Brunei Darussalam",
+  "COUNTRY_KEY": "BN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adfc"
+  },
+  "COUNTRY_NAME": "Bolivia",
+  "COUNTRY_KEY": "BO",
+  "STATE": [
+    "Santa Cruze"
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adfd"
+  },
+  "COUNTRY_NAME": "Brazil",
+  "COUNTRY_KEY": "BR",
+  "STATE": [
+    "Acre",
+    "Alagoas",
+    "Amapa",
+    "Amapá",
+    "Amazon",
+    "Amazonas",
+    "Bahia",
+    "Brasilia",
+    "Brasília",
+    "Ceara",
+    "Ceará",
+    "Espirito Santo",
+    "Espírito Santo",
+    "Goias",
+    "Maranhao",
+    "Mato Grosso",
+    "Mato Grosso do Sul",
+    "Minas Gerais",
+    "Para",
+    "Paraiba",
+    "Parana",
+    "Pernambuco",
+    "Piaui",
+    "Rio de Janeiro",
+    "Rio Grande do Norte",
+    "Rio Grande do Sul",
+    "Rondonia",
+    "Roraima",
+    "Santa Catarina",
+    "Sao Paulo",
+    "Sergipe",
+    "Tocantins"
+  ],
+  "TIME_ZONE": "BRAZIL",
+  "POSTAL_CODE_LENGTH": "9"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adfe"
+  },
+  "COUNTRY_NAME": "Bahamas",
+  "COUNTRY_KEY": "BS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EST",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1adff"
+  },
+  "COUNTRY_NAME": "Bhutan",
+  "COUNTRY_KEY": "BT",
+  "STATE": [
+    "Alberta",
+    "PHUENTSHOLING"
+  ],
+  "TIME_ZONE": "UTC+6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae00"
+  },
+  "COUNTRY_NAME": "Bouvet Islands",
+  "COUNTRY_KEY": "BV",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae01"
+  },
+  "COUNTRY_NAME": "Botswana",
+  "COUNTRY_KEY": "BW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae02"
+  },
+  "COUNTRY_NAME": "Belarus",
+  "COUNTRY_KEY": "BY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae03"
+  },
+  "COUNTRY_NAME": "Belize",
+  "COUNTRY_KEY": "BZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae04"
+  },
+  "COUNTRY_NAME": "Canada",
+  "COUNTRY_KEY": "CA",
+  "STATE": [
+    "Alberta",
+    "Britisch-Kolumbien",
+    "British Columbia",
+    "Manitoba",
+    "Neubraunschweig",
+    "Neufundland u. Labr.",
+    "Neuschottland",
+    "New Brunswick",
+    "Newfoundland & Labr.",
+    "Nordwest-Territorien",
+    "Northwest Terr.",
+    "Nova Scotia",
+    "Nunavut",
+    "Ontario",
+    "Prince Edward Island",
+    "Prinz-Eduard-Insel",
+    "Quebec",
+    "Saskatchewan",
+    "Yukon Territory",
+    "Yukon-Territorium"
+  ],
+  "TIME_ZONE": "CST",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae05"
+  },
+  "COUNTRY_NAME": "Coconut Islands",
+  "COUNTRY_KEY": "CC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+63",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae06"
+  },
+  "COUNTRY_NAME": "Democratic Republic of the Congo",
+  "COUNTRY_KEY": "CD",
+  "STATE": [
+    "Bas-Uele",
+    "Equateur",
+    "Haut-Katanga",
+    "Haut-Lomami",
+    "Haut-Uele",
+    "Ituri",
+    "Kasai",
+    "Kasai-Central",
+    "Kasai-Oriental",
+    "Kinshasa",
+    "Kongo Central",
+    "Kwango",
+    "Kwilu",
+    "Lomami",
+    "Lualaba",
+    "Mai-Ndombe",
+    "Maniema",
+    "Mongala",
+    "Nord-Ubangi",
+    "North Kivu",
+    "Sankuru",
+    "South Kivu",
+    "Sud-Ubangi",
+    "Tanganyika",
+    "Tshopo",
+    "Tshuapa"
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae07"
+  },
+  "COUNTRY_NAME": "Central African Republic",
+  "COUNTRY_KEY": "CF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae08"
+  },
+  "COUNTRY_NAME": "Republic of the Congo",
+  "COUNTRY_KEY": "CG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae09"
+  },
+  "COUNTRY_NAME": "Switzerland",
+  "COUNTRY_KEY": "CH",
+  "STATE": [
+    "Aargau",
+    "Ausser-Rhoden",
+    "Basel Land",
+    "Basel Stadt",
+    "Bern",
+    "Fribourg",
+    "Geneva",
+    "Glarus",
+    "Graubuenden",
+    "Inner-Rhoden",
+    "Jura",
+    "Lucerne",
+    "Luzern",
+    "Neuchatel",
+    "Nidwalden",
+    "Obwalden",
+    "Schaffhausen",
+    "Schwyz",
+    "Solothurn",
+    "St. Gallen",
+    "Thurgau",
+    "Ticino",
+    "Uri",
+    "Valais",
+    "Vaud",
+    "Zug",
+    "Zurich"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae0a"
+  },
+  "COUNTRY_NAME": "Cote d'Ivoire",
+  "COUNTRY_KEY": "CI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae0b"
+  },
+  "COUNTRY_NAME": "Cook Islands",
+  "COUNTRY_KEY": "CK",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae0c"
+  },
+  "COUNTRY_NAME": "Chile",
+  "COUNTRY_KEY": "CL",
+  "STATE": [
+    "Iquique",
+    "Antofagasta",
+    "Copiapo",
+    "La Serena",
+    "Temuco",
+    "Santiago",
+    "Valparaiso",
+    "Rancagua",
+    "Talca",
+    "Concepcion",
+    "Puerto Montt",
+    "Coyhaique",
+    "Punta Arenas"
+  ],
+  "TIME_ZONE": "CHILE",
+  "POSTAL_CODE_LENGTH": "7"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae0d"
+  },
+  "COUNTRY_NAME": "Cameroon",
+  "COUNTRY_KEY": "CM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae0e"
+  },
+  "COUNTRY_NAME": "China",
+  "COUNTRY_KEY": "CN",
+  "STATE": [
+    "Anhui",
+    "Baoding",
+    "Beijing",
+    "Chong Qing",
+    "Fujian",
+    "Gansu",
+    "Guangdong",
+    "Guangxi",
+    "Guangzhou",
+    "Guizhou",
+    "Hainan",
+    "Hebei",
+    "Heilongjiang",
+    "Henan",
+    "Hubei",
+    "Hunan",
+    "Jiangsu",
+    "Jiangxi",
+    "Jilin",
+    "Liaoning",
+    "Nei Mongol",
+    "Ningxia",
+    "Qinghai",
+    "Shaanxi",
+    "Shandong",
+    "Shanghai",
+    "Shanxi",
+    "Sichuan",
+    "Tianjin",
+    "Xinjiang",
+    "Xizang",
+    "Yunnan",
+    "Zhejiang"
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae0f"
+  },
+  "COUNTRY_NAME": "Colombia",
+  "COUNTRY_KEY": "CO",
+  "STATE": [
+    "Amazonas",
+    "ANTIOQUIA",
+    "ARAUCA",
+    "ATLANTICO",
+    "BOGOTA",
+    "BOLIVAR",
+    "BOYACA",
+    "CALDAS",
+    "CAQUETA",
+    "CASANARE",
+    "CAUCA",
+    "CESAR",
+    "CHOCO",
+    "CORDOBA",
+    "CUNDINAMARCA",
+    "GUAINIA",
+    "GUAVIARE",
+    "HUILA",
+    "LA GUAJIRA",
+    "MAGDALENA",
+    "META",
+    "NARINO",
+    "NORTE SANTANDER",
+    "PUTUMAYO",
+    "QUINDIO",
+    "RISARALDA",
+    "SAN ANDRES",
+    "SANTANDER",
+    "SUCRE",
+    "TOLIMA",
+    "VALLE",
+    "VAUPES",
+    "VICHADA"
+  ],
+  "TIME_ZONE": "UTC-5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae10"
+  },
+  "COUNTRY_NAME": "Costa Rica",
+  "COUNTRY_KEY": "CR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-6",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae11"
+  },
+  "COUNTRY_NAME": "Serbia and Montenegro",
+  "COUNTRY_KEY": "CS",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae12"
+  },
+  "COUNTRY_NAME": "Cuba",
+  "COUNTRY_KEY": "CU",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EST_NA",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae13"
+  },
+  "COUNTRY_NAME": "Cape Verde",
+  "COUNTRY_KEY": "CV",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-1",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae14"
+  },
+  "COUNTRY_NAME": "Christmas Islnd",
+  "COUNTRY_KEY": "CX",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+7",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae15"
+  },
+  "COUNTRY_NAME": "Cyprus",
+  "COUNTRY_KEY": "CY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CYPRUS",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae16"
+  },
+  "COUNTRY_NAME": "Czech Republic",
+  "COUNTRY_KEY": "CZ",
+  "STATE": [
+    "Jihocesky",
+    "Jihomoravsky",
+    "Karlovarsky",
+    "Kralovehradecky",
+    "Liberecky",
+    "Moravskoslezsky",
+    "Olomoucky",
+    "Pardubicky",
+    "Plzensky",
+    "Praha",
+    "Stredocesky",
+    "Ustecky",
+    "Vysocina",
+    "Zlinsky"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae17"
+  },
+  "COUNTRY_NAME": "Germany",
+  "COUNTRY_KEY": "DE",
+  "STATE": [
+    "Baden-Wurttemberg",
+    "Bavaria",
+    "Bayern",
+    "Berlin",
+    "Brandenburg",
+    "Bremen",
+    "Hamburg",
+    "Hessen",
+    "Lower Saxony",
+    "Mecklenburg-Vorpomm.",
+    "Niedersachsen",
+    "Nordrhein-Westfalen",
+    "Nrth Rhine Westfalia",
+    "Rheinland-Pfalz",
+    "Rhineland Palatinate",
+    "Saarland",
+    "Sachsen",
+    "Sachsen-Anhalt",
+    "Saxony",
+    "Saxony-Anhalt",
+    "Schleswig-Holstein",
+    "Thuringia"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae18"
+  },
+  "COUNTRY_NAME": "Djibouti",
+  "COUNTRY_KEY": "DJ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae19"
+  },
+  "COUNTRY_NAME": "Denmark",
+  "COUNTRY_KEY": "DK",
+  "STATE": [
+    "Central Jutland",
+    "Danish Capital Reg.",
+    "Hovedstaden",
+    "Midtjylland",
+    "Nordjylland",
+    "North Jutland",
+    "Sjaelland",
+    "South Denmark",
+    "Syddanmark",
+    "Zealand"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae1a"
+  },
+  "COUNTRY_NAME": "Dominica",
+  "COUNTRY_KEY": "DM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae1b"
+  },
+  "COUNTRY_NAME": "Dominican Republic",
+  "COUNTRY_KEY": "DO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae1c"
+  },
+  "COUNTRY_NAME": "Algeria",
+  "COUNTRY_KEY": "DZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae1d"
+  },
+  "COUNTRY_NAME": "Ecuador",
+  "COUNTRY_KEY": "EC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae1e"
+  },
+  "COUNTRY_NAME": "Estonia",
+  "COUNTRY_KEY": "EE",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae1f"
+  },
+  "COUNTRY_NAME": "Egypt",
+  "COUNTRY_KEY": "EG",
+  "STATE": [
+    "Cairo",
+    "Giza"
+  ],
+  "TIME_ZONE": "EGYPT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae20"
+  },
+  "COUNTRY_NAME": "West Sahara",
+  "COUNTRY_KEY": "EH",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae21"
+  },
+  "COUNTRY_NAME": "Eritrea",
+  "COUNTRY_KEY": "ER",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae22"
+  },
+  "COUNTRY_NAME": "Spain",
+  "COUNTRY_KEY": "ES",
+  "STATE": [
+    "Alava",
+    "Albacete",
+    "Alicante",
+    "Almeria",
+    "Asturias",
+    "Avila",
+    "Badajoz",
+    "Baleares",
+    "Barcelona",
+    "Burgos",
+    "Caceres",
+    "Cadiz",
+    "Cantabria",
+    "Castellon",
+    "Ciudad Real",
+    "CORDOBA",
+    "Cuenca",
+    "Gerona",
+    "Granada",
+    "Guadalajara",
+    "Guipuzcoa",
+    "Huelva",
+    "Huesca",
+    "Jaen",
+    "La Coruna",
+    "La Rioja",
+    "Las Palmas",
+    "Leon",
+    "Lerida",
+    "Lugo",
+    "Madrid",
+    "Malaga",
+    "Murcia",
+    "Navarra",
+    "Orense",
+    "Palencia",
+    "Pontevedra",
+    "Salamanca",
+    "Segovia",
+    "Sevilla",
+    "Soria",
+    "Sta. Cruz Tenerife",
+    "Tarragona",
+    "Teruel",
+    "Toledo",
+    "Valencia",
+    "Valladolid",
+    "Vizcaya",
+    "Zamora",
+    "Zaragoza"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae23"
+  },
+  "COUNTRY_NAME": "Ethiopia",
+  "COUNTRY_KEY": "ET",
+  "STATE": [
+    "Addis Ababa"
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae24"
+  },
+  "COUNTRY_NAME": "European Union",
+  "COUNTRY_KEY": "EU",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae25"
+  },
+  "COUNTRY_NAME": "Finland",
+  "COUNTRY_KEY": "FI",
+  "STATE": [
+    "Ahvenanmaa",
+    "Eastern Finnland",
+    "Etelä-Suomi",
+    "Itä-Suomi",
+    "Länsi-Suomi",
+    "Lappi",
+    "Oulu",
+    "Southern Finnland",
+    "Western Finnland"
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae26"
+  },
+  "COUNTRY_NAME": "Fiji",
+  "COUNTRY_KEY": "FJ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "FIJI",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae27"
+  },
+  "COUNTRY_NAME": "Falkland Islands",
+  "COUNTRY_KEY": "FK",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "FLKLND",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae28"
+  },
+  "COUNTRY_NAME": "Micronesia",
+  "COUNTRY_KEY": "FM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae29"
+  },
+  "COUNTRY_NAME": "Faroe Islands",
+  "COUNTRY_KEY": "FO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WET",
+  "POSTAL_CODE_LENGTH": "3"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae2a"
+  },
+  "COUNTRY_NAME": "France",
+  "COUNTRY_KEY": "FR",
+  "STATE": [
+    "Ain",
+    "Aisne",
+    "Allier",
+    "Alpes (Hautes)",
+    "Alpes (Hte-Provence)",
+    "Alpes-Maritimes",
+    "Ardeche",
+    "Ardennes",
+    "Ariege",
+    "Aube",
+    "Aude",
+    "Aveyron",
+    "Bas-Rhin",
+    "Bouches-du-Rhone",
+    "Calvados",
+    "Cantal",
+    "Charente",
+    "Charente-Maritime",
+    "Cher",
+    "Correze",
+    "Corse-du-Nord",
+    "Corse-du-Sud",
+    "Cote-d'Or",
+    "Cotes-d'Armor",
+    "Creuse",
+    "D.O.M.-T.O.M.",
+    "Dordogne",
+    "Doubs",
+    "Drome",
+    "Essonne",
+    "Eure",
+    "Eure-et-Loir",
+    "Finistere",
+    "Gard",
+    "Garonne (Haute)",
+    "Gers",
+    "Gironde",
+    "Guadeloupe",
+    "Guyane",
+    "Haut-Rhin",
+    "Hauts-de-Seine",
+    "Herault",
+    "Hors-France",
+    "Ille-et-Vilaine",
+    "Indre",
+    "Indre-et-Loire",
+    "Isere",
+    "Jura",
+    "Landes",
+    "Loire",
+    "Loire (Haute)",
+    "Loire-Atlantique",
+    "Loiret",
+    "Loir-et-Cher",
+    "Lot",
+    "Lot-et-Garonne",
+    "Lozere",
+    "Maine-et-Loire",
+    "Manche",
+    "Marne",
+    "Marne (Haute)",
+    "Martinique",
+    "Mayenne",
+    "Meurthe-et-Moselle",
+    "Meuse",
+    "Morbihan",
+    "Moselle",
+    "Nievre",
+    "Nord",
+    "Oise",
+    "Orne",
+    "Paris",
+    "Pas-de-Calais",
+    "Puy-de-Dome",
+    "Pyrenees (Hautes)",
+    "Pyrenees-Atlantiques",
+    "Pyrenees-Orientales",
+    "Reunion",
+    "Rhin (Bas)",
+    "Rhin (Haut)",
+    "Rhone",
+    "Saint-Pierre-et-Miq.",
+    "Saone (Haute)",
+    "Saone-et-Loire",
+    "Sarthe",
+    "Savoie",
+    "Savoie (Haute)",
+    "Seine-et-Marne",
+    "Seine-Maritime",
+    "Seine-Saint-Denis",
+    "Sevres (Deux)",
+    "Somme",
+    "Tarn",
+    "Tarn-et-Garonne",
+    "Territ.-de-Belfort",
+    "Val-de-Marne",
+    "Val-d'Oise",
+    "Var",
+    "Vaucluse",
+    "Vendee",
+    "Vienne",
+    "Vienne (Haute)",
+    "Vosges",
+    "Wallis-et-Futuna",
+    "Yonne",
+    "Yvelines"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae2b"
+  },
+  "COUNTRY_NAME": "Gabon",
+  "COUNTRY_KEY": "GA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae2c"
+  },
+  "COUNTRY_NAME": "United Kingdom",
+  "COUNTRY_KEY": "GB",
+  "STATE": [
+    "Aberdeenshire",
+    "Anglesey",
+    "Angus/Forfanshire",
+    "Angus/Forfarshire",
+    "Antrim",
+    "Argyllshire",
+    "Armagh",
+    "Ayrshire",
+    "Banffshire",
+    "Bath&NthEstSomerset",
+    "Bedfordshire",
+    "Berkshire",
+    "Berwickshire",
+    "Brecknockshire",
+    "Buckinghamshire",
+    "Buteshire",
+    "Caernarfonshire",
+    "Caithness",
+    "Cambridgeshire",
+    "Cardiganshire",
+    "Carmarthenshire",
+    "Cheshire",
+    "Clackmannanshire",
+    "Cornwall",
+    "Cromartyshire",
+    "Cumberland",
+    "Cumbria",
+    "Denbighshire",
+    "Derbyshire",
+    "Devon",
+    "Dorset",
+    "Down",
+    "Dumfriesshire",
+    "Dunbartonshire",
+    "Durham",
+    "East Lothian",
+    "East Sussex",
+    "Essex",
+    "Fermanagh",
+    "Fife",
+    "Flintshire",
+    "Gloucestershire",
+    "Hampshire",
+    "Herefd. and Worcest.",
+    "Hereford and Worcs.",
+    "Hertfordshire",
+    "Huntingdonshire",
+    "Invernesshire",
+    "Isle of Wight",
+    "Kent",
+    "Kincardineshire",
+    "Kinross-shire",
+    "Kirkcudbrightshire",
+    "Lanarkshire",
+    "Lancashire",
+    "Leicestershire",
+    "Lincolnshire",
+    "Londonderry",
+    "Merioneth",
+    "Mid Glamorgan",
+    "Middlesex",
+    "Midlothian",
+    "Monmouthshire",
+    "Montgomeryshire",
+    "Morayshire",
+    "Nairnshire",
+    "Norfolk",
+    "North Yorkshire",
+    "Northamptonshire",
+    "Northumberland",
+    "Nottinghamshire",
+    "Orkney",
+    "Oxfordshire",
+    "Peeblesshire",
+    "Pembrokeshire",
+    "Perthshire",
+    "Radnorshire",
+    "Renfrewshire",
+    "Ross-shire",
+    "Roxburghshire",
+    "Rutland",
+    "Selkirkshire",
+    "Shetland",
+    "Shropshire",
+    "Somerset",
+    "South Glamorgan",
+    "South Yorkshire",
+    "Staffordshire",
+    "Stirlingshire",
+    "Suffolk",
+    "Surrey",
+    "Sutherland",
+    "Tyrone",
+    "Warwickshire",
+    "West Glamorgan",
+    "West Lothian",
+    "West Sussex",
+    "West Yorkshire",
+    "Westmorland",
+    "Wigtownshire",
+    "Wiltshire",
+    "Worcestershire"
+  ],
+  "TIME_ZONE": "GMTUK",
+  "POSTAL_CODE_LENGTH": "9"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae2d"
+  },
+  "COUNTRY_NAME": "Grenada",
+  "COUNTRY_KEY": "GD",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae2e"
+  },
+  "COUNTRY_NAME": "Georgia",
+  "COUNTRY_KEY": "GE",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae2f"
+  },
+  "COUNTRY_NAME": "French Guyana",
+  "COUNTRY_KEY": "GF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae30"
+  },
+  "COUNTRY_NAME": "Ghana",
+  "COUNTRY_KEY": "GH",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae31"
+  },
+  "COUNTRY_NAME": "Gibraltar",
+  "COUNTRY_KEY": "GI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae32"
+  },
+  "COUNTRY_NAME": "Greenland",
+  "COUNTRY_KEY": "GL",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "GST",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae33"
+  },
+  "COUNTRY_NAME": "Gambia",
+  "COUNTRY_KEY": "GM",
+  "STATE": [
+    "CONAKRY",
+    "Banjul",
+    "Central River",
+    "Lower River",
+    "North Bank",
+    "Upper River",
+    "Western"
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae34"
+  },
+  "COUNTRY_NAME": "Guinea",
+  "COUNTRY_KEY": "GN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae35"
+  },
+  "COUNTRY_NAME": "Guadeloupe",
+  "COUNTRY_KEY": "GP",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae36"
+  },
+  "COUNTRY_NAME": "Equatorial Guinea",
+  "COUNTRY_KEY": "GQ",
+  "STATE": "",
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae37"
+  },
+  "COUNTRY_NAME": "Greece",
+  "COUNTRY_KEY": "GR",
+  "STATE": [
+    "",
+    "Aitolia kai Akarnan.",
+    "Akhaia",
+    "Argolis",
+    "Arkadhia",
+    "Arta",
+    "Attiki",
+    "Dhodhekanisos",
+    "Dhrama",
+    "Evritania",
+    "Evros",
+    "Evvoia",
+    "Florina",
+    "Fokis",
+    "Fthiotis",
+    "Grevena",
+    "Ilia",
+    "Imathia",
+    "Ioannina",
+    "Iraklion",
+    "Kardhitsa",
+    "Kastoria",
+    "Kavala",
+    "Kefallinia",
+    "Kerkira",
+    "Khalkidhiki",
+    "Khania",
+    "Khios",
+    "Kikladhes",
+    "Kilkis",
+    "Korinthia",
+    "Kozani",
+    "Lakonia",
+    "Larisa",
+    "Lasithi",
+    "Lesvos",
+    "Levkas",
+    "Magnisia",
+    "Messinia",
+    "Pella",
+    "Pieria",
+    "Piraievs",
+    "Preveza",
+    "Rethimni",
+    "Rodhopi",
+    "Samos",
+    "Serrai",
+    "Thesprotia",
+    "Thessaloniki",
+    "Trikala",
+    "Voiotia",
+    "Xanthi",
+    "Zakinthos"
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae38"
+  },
+  "COUNTRY_NAME": "South Georgia and the Southern Sandwich Islands",
+  "COUNTRY_KEY": "GS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-2",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae39"
+  },
+  "COUNTRY_NAME": "Guatemala",
+  "COUNTRY_KEY": "GT",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae3a"
+  },
+  "COUNTRY_NAME": "Guam",
+  "COUNTRY_KEY": "GU",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae3b"
+  },
+  "COUNTRY_NAME": "Guinea-Bissau",
+  "COUNTRY_KEY": "GW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae3c"
+  },
+  "COUNTRY_NAME": "Guyana",
+  "COUNTRY_KEY": "GY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae3d"
+  },
+  "COUNTRY_NAME": "Hong Kong",
+  "COUNTRY_KEY": "HK",
+  "STATE": [
+    "",
+    "Hong Kong Island",
+    "Kowloon",
+    "New Territories",
+    "Wanchai"
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae3e"
+  },
+  "COUNTRY_NAME": "Heard and McDonald Islands",
+  "COUNTRY_KEY": "HM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae3f"
+  },
+  "COUNTRY_NAME": "Honduras",
+  "COUNTRY_KEY": "HN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae40"
+  },
+  "COUNTRY_NAME": "Croatia",
+  "COUNTRY_KEY": "HR",
+  "STATE": [
+    "",
+    "Bjelovarsko-bilogors",
+    "Dubrovacko-neretvans",
+    "Istarska",
+    "Karlovacka",
+    "Karlovacka ",
+    "Koprivnicko-krizevac",
+    "Krapinsko-zagorska",
+    "Licko-senjska",
+    "Licko-senjska ",
+    "Medjimurska",
+    "Osjecko-baranjska",
+    "Osjecko-baranjska ",
+    "Pozesko-slavonska",
+    "Pozesko-slavonska ",
+    "Rijecko-goranska",
+    "Rijecko-goranska ",
+    "Sibensko-kninska",
+    "Sibensko-kninska  ",
+    "Sisacko-moslavacka",
+    "Sisacko-moslavacka ",
+    "Slavonskobrodska",
+    "Splitsko-dalmatinska",
+    "Stadt Zagreb ",
+    "Varazdinska",
+    "Varazdinska ",
+    "Viroviticko-podravac",
+    "Vukovarsko-srijemska",
+    "Zadarska",
+    "Zadarska ",
+    "Zagreb",
+    "Zagrebacka"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae41"
+  },
+  "COUNTRY_NAME": "Haiti",
+  "COUNTRY_KEY": "HT",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EST",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae42"
+  },
+  "COUNTRY_NAME": "Hungary",
+  "COUNTRY_KEY": "HU",
+  "STATE": [
+    "",
+    "Bacs-Kiskun",
+    "Baranya",
+    "Bekes",
+    "Bekescsaba",
+    "Borsod-Abauj-Zemplen",
+    "Budapest",
+    "Csongrad",
+    "Debrecen",
+    "Dunaujvaros",
+    "Eger",
+    "Fejer",
+    "Gyor",
+    "Gyor-Moson-Sopron",
+    "Hajdu-Bihar",
+    "Heves",
+    "Hodmezovasarhely",
+    "Jasz-Nagykun-Szolnok",
+    "Kaposvar",
+    "Kecskemet",
+    "Komarom-Esztergom",
+    "Miskolc",
+    "Nagykanizsa",
+    "Nograd",
+    "Nyiregyhaza",
+    "Pecs",
+    "Pest",
+    "Somogy",
+    "Sopron",
+    "Szabolcs-Szat.-Bereg",
+    "Szeged",
+    "Szekesfehervar",
+    "Szolnok",
+    "Szombathely",
+    "Tatabanya",
+    "Tolna",
+    "Vas",
+    "Veszprem",
+    "Zala",
+    "Zalaegerszeg"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae43"
+  },
+  "COUNTRY_NAME": "Indonesia",
+  "COUNTRY_KEY": "ID",
+  "STATE": [
+    "",
+    "Bali Bali",
+    "Bengkulu Bengkulu",
+    "DI Aceh Aceh",
+    "DI Yogyakarta Yogyak",
+    "DKI Jakarta Jakarta",
+    "Irian Jaya Irian Jay",
+    "Jambi Jambi",
+    "Jawa Barat West Java",
+    "Jawa Tengah Central",
+    "Jawa Timur East Java",
+    "Kalimantan Barat Wes",
+    "Kalimantan Selatan S",
+    "Kalimantan Tengah Ce",
+    "Kalimantan Timur Eas",
+    "Lampung Lampung",
+    "Maluku Maluku",
+    "Nusa Tenggara Barat",
+    "Nusa Tenggara Timur",
+    "Riau Riau",
+    "Sulawesi Selatan Sou",
+    "Sulawesi Tengah Cent",
+    "Sulawesi Tenggara So",
+    "Sulawesi Utara North",
+    "Sumatera Barat West",
+    "Sumatera Selatan Sou",
+    "Sumatera Utara North",
+    "Timor Timur East Tim"
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae44"
+  },
+  "COUNTRY_NAME": "Ireland",
+  "COUNTRY_KEY": "IE",
+  "STATE": [
+    "",
+    "Carlow",
+    "Cavan",
+    "Clara",
+    "Clare",
+    "Cork",
+    "Donegal",
+    "Dublin",
+    "Galway",
+    "Kerry",
+    "Kildara",
+    "Kildare",
+    "Kilkenny",
+    "Laois",
+    "Leitrim",
+    "Limerick",
+    "Longford",
+    "Louth",
+    "Mayo",
+    "Meath",
+    "Monaghan",
+    "Offaly",
+    "Roscommon",
+    "Rosscommon",
+    "Sligo",
+    "Tipperary",
+    "Waterford",
+    "Westmeath",
+    "Wexford",
+    "Wicklow",
+    "Wickow"
+  ],
+  "TIME_ZONE": "GMTUK",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae45"
+  },
+  "COUNTRY_NAME": "Israel",
+  "COUNTRY_KEY": "IL",
+  "STATE": [
+    "",
+    "Central",
+    "Haifa",
+    "Jerusalem",
+    "Northern",
+    "Southern",
+    "Tel Aviv"
+  ],
+  "TIME_ZONE": "ISRAEL",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae46"
+  },
+  "COUNTRY_NAME": "India",
+  "COUNTRY_KEY": "IN",
+  "STATE": [
+    "",
+    "Andaman and Nicobar",
+    "Andaman und Nico.In.",
+    "Andhra Pradesh",
+    "Andra Pradesh",
+    "Arunachal Pradesh",
+    "Assam",
+    "Bihar",
+    "Chandigarh",
+    "Chhaattisgarh",
+    "Chhattisgarh",
+    "D&N Haveli&Daman&Diu",
+    "Dadra und Nagar Hav.",
+    "Daman and Diu",
+    "Daman und Diu",
+    "Delhi",
+    "Goa",
+    "Gujarat",
+    "Haryana",
+    "Himachal Pradesh",
+    "Jammu and Kashmir",
+    "Jammu und Kashmir",
+    "Jharkhand",
+    "Karnataka",
+    "Kerala",
+    "Laddakh",
+    "Lakshadweep",
+    "Madhya Pradesh",
+    "Maharashtra",
+    "Manipur",
+    "Megalaya",
+    "Meghalaya",
+    "Mizoram",
+    "Nagaland",
+    "Odisha",
+    "Orissa",
+    "Pondicherry",
+    "Puducherry",
+    "Punjab",
+    "Rajasthan",
+    "Sikkim",
+    "Tamil Nadu",
+    "Telangana",
+    "Tripura",
+    "Uttar Pradesh",
+    "Uttarakhand",
+    "Uttaranchal",
+    "West Bengal"
+  ],
+  "TIME_ZONE": "INDIA",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae47"
+  },
+  "COUNTRY_NAME": "British Indian Ocean Territory",
+  "COUNTRY_KEY": "IO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae48"
+  },
+  "COUNTRY_NAME": "Iraq",
+  "COUNTRY_KEY": "IQ",
+  "STATE": [
+    "",
+    "Baghdad",
+    "Erbil",
+    "Karbala"
+  ],
+  "TIME_ZONE": "IRAQ",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae49"
+  },
+  "COUNTRY_NAME": "Iran",
+  "COUNTRY_KEY": "IR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "IRAN",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae4a"
+  },
+  "COUNTRY_NAME": "Iceland",
+  "COUNTRY_KEY": "IS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "3"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae4b"
+  },
+  "COUNTRY_NAME": "Italy",
+  "COUNTRY_KEY": "IT",
+  "STATE": [
+    "",
+    "Agriento",
+    "Agrigento",
+    "Alessandria",
+    "Ancona",
+    "Aosta",
+    "Arezzo",
+    "Ascoli Piceno",
+    "Asti",
+    "Avellino",
+    "Bari",
+    "Belluno",
+    "Benevento",
+    "Bergamo",
+    "Biella",
+    "Bologna",
+    "Bolzano",
+    "Brescia",
+    "Brindisi",
+    "Cagliari",
+    "Caltanisetta",
+    "Campobasso",
+    "Carbonia-Iglesias",
+    "Caserta",
+    "Catania",
+    "Catanzaro",
+    "Chieti",
+    "Como",
+    "Cosenza",
+    "Cremona",
+    "Crotone",
+    "Cuneo",
+    "Enna",
+    "Ferrara",
+    "Firenze",
+    "Fiume",
+    "Florence",
+    "Foggia",
+    "Forli/Cesana",
+    "Frosinone",
+    "Genova",
+    "Gorizia",
+    "Grosseto",
+    "Imperia",
+    "Isernia",
+    "La Spezia",
+    "L'Aquila",
+    "Latina",
+    "Lecce",
+    "Lecco",
+    "Livorno",
+    "Lodi",
+    "Lucca",
+    "Macerata",
+    "Mantova",
+    "Massa Carrara",
+    "Matera",
+    "Medio Campidano",
+    "Messina",
+    "Milan",
+    "Milano",
+    "Modena",
+    "Monza e Brianza",
+    "Naples",
+    "Napoli",
+    "Novara",
+    "Nuoro",
+    "Ogliastra",
+    "Olbia-Tempio",
+    "Oristano",
+    "Padova",
+    "Palermo",
+    "Parma",
+    "Pavia",
+    "Perugia",
+    "Pesaro-Urbino",
+    "Pescara",
+    "Piacenza",
+    "Pisa",
+    "Pistoia",
+    "Pola",
+    "Pordenone",
+    "Potenza",
+    "Prato",
+    "Ragusa",
+    "Ravenna",
+    "Reggio Calabria",
+    "Reggio Emilia",
+    "Rieti",
+    "Rimini",
+    "Roma",
+    "Rome",
+    "Rovigo",
+    "Salerno",
+    "Sassari",
+    "Savona",
+    "Siena",
+    "Siracusa",
+    "Sondrio",
+    "Stati Esteri",
+    "Taranto",
+    "Teramo",
+    "Terni",
+    "Torino",
+    "Trapani",
+    "Trento",
+    "Treviso",
+    "Trieste",
+    "Turin",
+    "Udine",
+    "Varese",
+    "Venezia",
+    "Venice",
+    "Verbania",
+    "Vercelli",
+    "Verona",
+    "Vibo Valentia",
+    "Vicenza",
+    "Viterbo",
+    "Zara"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae4c"
+  },
+  "COUNTRY_NAME": "Jamaica",
+  "COUNTRY_KEY": "JM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae4d"
+  },
+  "COUNTRY_NAME": "Jordan",
+  "COUNTRY_KEY": "JO",
+  "STATE": [
+    "AMMAN"
+  ],
+  "TIME_ZONE": "JORDAN",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae4e"
+  },
+  "COUNTRY_NAME": "Japan",
+  "COUNTRY_KEY": "JP",
+  "STATE": [
+    "",
+    "Aichi",
+    "Akita",
+    "Aomori",
+    "Chiba",
+    "Ehime",
+    "Fukui",
+    "Fukuoka",
+    "Fukushima",
+    "Gifu",
+    "Gunma",
+    "Hiroshima",
+    "Hokkaido",
+    "Hyogo",
+    "Ibaraki",
+    "Ishikawa",
+    "Iwate",
+    "Kagawa",
+    "Kagoshima",
+    "Kanagawa",
+    "Kochi",
+    "Kumamoto",
+    "Kyoto",
+    "Mie",
+    "Miyagi",
+    "Miyazaki",
+    "Nagano",
+    "Nagasaki",
+    "Nara",
+    "Niigata",
+    "Oita",
+    "Okayama",
+    "Okinawa",
+    "Osaka",
+    "Saga",
+    "Saitama",
+    "Shiga",
+    "Shimane",
+    "Shizuoka",
+    "Tochigi",
+    "Tokushima",
+    "Tokyo",
+    "Tottori",
+    "Toyama",
+    "Wakayama",
+    "Yamagata",
+    "Yamaguchi",
+    "Yamanashi"
+  ],
+  "TIME_ZONE": "JAPAN",
+  "POSTAL_CODE_LENGTH": "7"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae4f"
+  },
+  "COUNTRY_NAME": "Kenya",
+  "COUNTRY_KEY": "KE",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae50"
+  },
+  "COUNTRY_NAME": "Kyrgyzstan",
+  "COUNTRY_KEY": "KG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae51"
+  },
+  "COUNTRY_NAME": "Cambodia",
+  "COUNTRY_KEY": "KH",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+7",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae52"
+  },
+  "COUNTRY_NAME": "Kiribati",
+  "COUNTRY_KEY": "KI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+12",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae53"
+  },
+  "COUNTRY_NAME": "Comoros",
+  "COUNTRY_KEY": "KM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae54"
+  },
+  "COUNTRY_NAME": "Saint Kitts and Nevis",
+  "COUNTRY_KEY": "KN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae55"
+  },
+  "COUNTRY_NAME": "North Korea",
+  "COUNTRY_KEY": "KP",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+9",
+  "POSTAL_CODE_LENGTH": "7"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae56"
+  },
+  "COUNTRY_NAME": "South Korea",
+  "COUNTRY_KEY": "KR",
+  "STATE": [
+    "",
+    "Ch´ungch´ong-bukto",
+    "Ch´ungch´ong-namdo",
+    "Cheju-do",
+    "Cholla-bukto",
+    "Cholla-namdo",
+    "Inch´on-jikhalsi",
+    "Kangwon-do",
+    "Kwangju-jikhalsi",
+    "Kyonggi-do",
+    "Kyongsang-bukto",
+    "Kyongsang-namdo",
+    "Pusan-jikhalsi",
+    "Seoul",
+    "Soul-t´ukpyolsi",
+    "Taegu-jikhalsi",
+    "Taejon-jikhalsi"
+  ],
+  "TIME_ZONE": "UTC+9",
+  "POSTAL_CODE_LENGTH": "7"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae57"
+  },
+  "COUNTRY_NAME": "Kuwait",
+  "COUNTRY_KEY": "KW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae58"
+  },
+  "COUNTRY_NAME": "Cayman Islands",
+  "COUNTRY_KEY": "KY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae59"
+  },
+  "COUNTRY_NAME": "Kazakhstan",
+  "COUNTRY_KEY": "KZ",
+  "STATE": [
+    "",
+    "Akmolinskaia",
+    "Aktubinskaia",
+    "Almatynskaia",
+    "Atyrauskaia",
+    "Gambilskaia",
+    "Karagandinskaia",
+    "Kostanaiskaia",
+    "Kyzilordinskaia",
+    "Mangystayskaia",
+    "Pavlodarskaia",
+    "Severo-Kazakhstansk",
+    "Vostochno-Kazakhstan",
+    "Zapadno-Kazakhst"
+  ],
+  "TIME_ZONE": "UTC+6",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae5a"
+  },
+  "COUNTRY_NAME": "Laos",
+  "COUNTRY_KEY": "LA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+7",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae5b"
+  },
+  "COUNTRY_NAME": "Lebanon",
+  "COUNTRY_KEY": "LB",
+  "STATE": [
+    "",
+    "Al Janub",
+    "Beqaa",
+    "Beyrouth",
+    "Liban-Nord",
+    "Liban-Sud",
+    "Mont-Liban",
+    "Nabatiye"
+  ],
+  "TIME_ZONE": "LBANON",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae5c"
+  },
+  "COUNTRY_NAME": "St. Lucia",
+  "COUNTRY_KEY": "LC",
+  "STATE": "",
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae5d"
+  },
+  "COUNTRY_NAME": "Liechtenstein",
+  "COUNTRY_KEY": "LI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae5e"
+  },
+  "COUNTRY_NAME": "Sri Lanka",
+  "COUNTRY_KEY": "LK",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+53",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae5f"
+  },
+  "COUNTRY_NAME": "Liberia",
+  "COUNTRY_KEY": "LR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae60"
+  },
+  "COUNTRY_NAME": "Lesotho",
+  "COUNTRY_KEY": "LS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "3"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae61"
+  },
+  "COUNTRY_NAME": "Lithuania",
+  "COUNTRY_KEY": "LT",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae62"
+  },
+  "COUNTRY_NAME": "Luxembourg",
+  "COUNTRY_KEY": "LU",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae63"
+  },
+  "COUNTRY_NAME": "Latvia",
+  "COUNTRY_KEY": "LV",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae64"
+  },
+  "COUNTRY_NAME": "Libya",
+  "COUNTRY_KEY": "LY",
+  "STATE": [
+    "",
+    "Ajdabiya",
+    "Al Aziziyah",
+    "Al Fatih",
+    "Al Jabal al Akhdar",
+    "Al Jufrah",
+    "Al Khums",
+    "Al Kufrah",
+    "An Nuqat al Khams",
+    "Ash Shati'",
+    "Awbari",
+    "Az Zawiyah",
+    "Banghazi",
+    "Darnah",
+    "Ghadamis",
+    "Gharyan",
+    "Misurata",
+    "Murzuq",
+    "Sabha",
+    "Sawfajjin",
+    "Surt",
+    "Tarabulus",
+    "Tarhunah",
+    "Tubruq",
+    "Yafran",
+    "Zlitan"
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae65"
+  },
+  "COUNTRY_NAME": "Morocco",
+  "COUNTRY_KEY": "MA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "MOROCC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae66"
+  },
+  "COUNTRY_NAME": "Monaco",
+  "COUNTRY_KEY": "MC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae67"
+  },
+  "COUNTRY_NAME": "Moldova",
+  "COUNTRY_KEY": "MD",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "MOLDVA",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae68"
+  },
+  "COUNTRY_NAME": "Montenegro",
+  "COUNTRY_KEY": "ME",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae69"
+  },
+  "COUNTRY_NAME": "Madagascar",
+  "COUNTRY_KEY": "MG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae6a"
+  },
+  "COUNTRY_NAME": "Marshall Islands",
+  "COUNTRY_KEY": "MH",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+12",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae6b"
+  },
+  "COUNTRY_NAME": "Macedonia",
+  "COUNTRY_KEY": "MK",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae6c"
+  },
+  "COUNTRY_NAME": "Mali",
+  "COUNTRY_KEY": "ML",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae6d"
+  },
+  "COUNTRY_NAME": "Myanmar",
+  "COUNTRY_KEY": "MM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+63",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae6e"
+  },
+  "COUNTRY_NAME": "Mongolia",
+  "COUNTRY_KEY": "MN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae6f"
+  },
+  "COUNTRY_NAME": "Macau",
+  "COUNTRY_KEY": "MO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae70"
+  },
+  "COUNTRY_NAME": "North Mariana Islands",
+  "COUNTRY_KEY": "MP",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae71"
+  },
+  "COUNTRY_NAME": "Martinique",
+  "COUNTRY_KEY": "MQ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae72"
+  },
+  "COUNTRY_NAME": "Mauretania",
+  "COUNTRY_KEY": "MR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae73"
+  },
+  "COUNTRY_NAME": "Montserrat",
+  "COUNTRY_KEY": "MS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae74"
+  },
+  "COUNTRY_NAME": "Malta",
+  "COUNTRY_KEY": "MT",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae75"
+  },
+  "COUNTRY_NAME": "Mauritius",
+  "COUNTRY_KEY": "MU",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "MAU",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae76"
+  },
+  "COUNTRY_NAME": "Maldives",
+  "COUNTRY_KEY": "MV",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae77"
+  },
+  "COUNTRY_NAME": "Malawi",
+  "COUNTRY_KEY": "MW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae78"
+  },
+  "COUNTRY_NAME": "Mexico",
+  "COUNTRY_KEY": "MX",
+  "STATE": [
+    "",
+    "Aguascalientes",
+    "Baja California",
+    "Baja California S",
+    "Campeche",
+    "Chiapas",
+    "Chihuahua",
+    "Coahuila",
+    "Colima",
+    "Distrito Federal",
+    "Durango",
+    "Estado de Mexico",
+    "Estado de México",
+    "Guanajuato",
+    "Guerrero",
+    "Hidalgo",
+    "Jalisco",
+    "Michoacan",
+    "Michoacán",
+    "Morelos",
+    "Nayarit",
+    "Nuevo Leon",
+    "Nuevo León",
+    "Oaxaca",
+    "Puebla",
+    "Queretaro",
+    "Querétaro",
+    "Quintana Roo",
+    "San Luis Potosi",
+    "San Luis Potosí",
+    "Sinaloa",
+    "Sonora",
+    "Tabasco",
+    "Tamaulipas",
+    "Tlaxcala",
+    "Veracruz",
+    "Yucatan",
+    "Yucatán",
+    "Zacatecas"
+  ],
+  "TIME_ZONE": "CST_NA",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae79"
+  },
+  "COUNTRY_NAME": "Malaysia",
+  "COUNTRY_KEY": "MY",
+  "STATE": [
+    "",
+    "Johor",
+    "Kedah",
+    "Kelantan",
+    "Kuala Lumpur",
+    "Labuan",
+    "Melaka",
+    "Negeri Sembilan",
+    "Pahang",
+    "Perak",
+    "Perlis",
+    "Pulau Pinang",
+    "Sabah",
+    "Sarawak",
+    "Selangor",
+    "Trengganu",
+    "Wil. Persekutuan"
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae7a"
+  },
+  "COUNTRY_NAME": "Mozambique",
+  "COUNTRY_KEY": "MZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae7b"
+  },
+  "COUNTRY_NAME": "Namibia",
+  "COUNTRY_KEY": "NA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "NAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae7c"
+  },
+  "COUNTRY_NAME": "New Caledonia",
+  "COUNTRY_KEY": "NC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae7d"
+  },
+  "COUNTRY_NAME": "Niger",
+  "COUNTRY_KEY": "NE",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae7e"
+  },
+  "COUNTRY_NAME": "Norfolk Islands",
+  "COUNTRY_KEY": "NF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "NORFLK",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae7f"
+  },
+  "COUNTRY_NAME": "Nigeria",
+  "COUNTRY_KEY": "NG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "10"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae80"
+  },
+  "COUNTRY_NAME": "Nicaragua",
+  "COUNTRY_KEY": "NI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae81"
+  },
+  "COUNTRY_NAME": "Netherlands",
+  "COUNTRY_KEY": "NL",
+  "STATE": [
+    "",
+    "Drenthe",
+    "Flevoland",
+    "Friesland",
+    "Gelderland",
+    "Groningen",
+    "Limburg",
+    "Noord-Brabant",
+    "Noord-Holland",
+    "Overijssel",
+    "Utrecht",
+    "Zeeland",
+    "Zuid-Holland"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae82"
+  },
+  "COUNTRY_NAME": "Norway",
+  "COUNTRY_KEY": "NO",
+  "STATE": [
+    "",
+    "Akershus County",
+    "Akershus Fylke",
+    "Aust-Agder County",
+    "Aust-Agder Fylke",
+    "Buskerud County",
+    "Buskerud Fylke",
+    "Finnmark County",
+    "Finnmark Fylke",
+    "Hedmark County",
+    "Hedmark Fylke",
+    "Hordaland County",
+    "Hordaland Fylke",
+    "More og Romsdal C.",
+    "Møre og Romsdal F.",
+    "Nordland County",
+    "Nordland Fylke",
+    "Nord-Trondelag Cnty",
+    "Nord-Trøndelag Fylke",
+    "Oppland County",
+    "Oppland Fylke",
+    "Oslo",
+    "Ostfold County",
+    "Østfold Fylke",
+    "Rogaland County",
+    "Rogaland Fylke",
+    "Sogn og Fjordane C.",
+    "Sogn og Fjordane F.",
+    "Sor-Trondelag County",
+    "Sør-Trøndelag Fylke",
+    "Telemark County",
+    "Telemark Fylke",
+    "Troms County",
+    "Troms Fylke",
+    "Vest-Agder County",
+    "Vest-Agder Fylke",
+    "Vestfold County",
+    "Vestfold Fylke"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae83"
+  },
+  "COUNTRY_NAME": "Nepal",
+  "COUNTRY_KEY": "NP",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "NEPAL",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae84"
+  },
+  "COUNTRY_NAME": "Nauru",
+  "COUNTRY_KEY": "NR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+12",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae85"
+  },
+  "COUNTRY_NAME": "NATO",
+  "COUNTRY_KEY": "NT",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae86"
+  },
+  "COUNTRY_NAME": "Niue",
+  "COUNTRY_KEY": "NU",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae87"
+  },
+  "COUNTRY_NAME": "New Zealand",
+  "COUNTRY_KEY": "NZ",
+  "STATE": [
+    "",
+    "Auckland",
+    "Bay of Plenty",
+    "Canterbury",
+    "Hawke´s Bay",
+    "Manawatu-Wanganui",
+    "Northland",
+    "Otago",
+    "Southland",
+    "Taranaki",
+    "Waikato",
+    "Wellington",
+    "West Coast"
+  ],
+  "TIME_ZONE": "NZST",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae88"
+  },
+  "COUNTRY_NAME": "Oman",
+  "COUNTRY_KEY": "OM",
+  "STATE": [
+    "",
+    "Ad Dakhiliyah",
+    "Ad Dhahirah",
+    "Al Batinah North",
+    "Al Batinah South",
+    "Al Buraimi",
+    "Al Wusta",
+    "Ash Sharqiyah North",
+    "Ash Sharqiyah South",
+    "Dhofar",
+    "Musandam",
+    "Muscat"
+  ],
+  "TIME_ZONE": "UTC+4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae89"
+  },
+  "COUNTRY_NAME": "Orange",
+  "COUNTRY_KEY": "OR",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae8a"
+  },
+  "COUNTRY_NAME": "Panama",
+  "COUNTRY_KEY": "PA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae8b"
+  },
+  "COUNTRY_NAME": "Peru",
+  "COUNTRY_KEY": "PE",
+  "STATE": [
+    "",
+    "Amazon",
+    "Amazonas",
+    "Ancash",
+    "Apurimac",
+    "Arequipa",
+    "Ayacucho",
+    "Cajamarca",
+    "Cuzco",
+    "Huancavelica",
+    "Huanuco",
+    "Huánuco",
+    "Ica",
+    "Junin",
+    "Junín",
+    "La Libertad",
+    "Lambayeque",
+    "Lima y Callao",
+    "Loreto",
+    "Madre de Dios",
+    "Madre de Díos",
+    "Moquegua",
+    "Pasco",
+    "Piura",
+    "Puno",
+    "San Martin",
+    "San Martín",
+    "Tacna",
+    "Tumbes",
+    "Ucayali"
+  ],
+  "TIME_ZONE": "UTC-5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae8c"
+  },
+  "COUNTRY_NAME": "French Polynesia",
+  "COUNTRY_KEY": "PF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae8d"
+  },
+  "COUNTRY_NAME": "Papua New Guinea",
+  "COUNTRY_KEY": "PG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae8e"
+  },
+  "COUNTRY_NAME": "Philippines",
+  "COUNTRY_KEY": "PH",
+  "STATE": [
+    "",
+    "Bicol",
+    "Cagayan Valley",
+    "Central Luzon",
+    "Central Mindanao",
+    "Central Visayas",
+    "Cntrl Mindanao",
+    "Cntrl Visayas",
+    "East Visayas",
+    "Eastern Visayas",
+    "Ilocos",
+    "North Mindanao",
+    "Northern Mindanao",
+    "South Luzon",
+    "South Mindanao",
+    "West Mindanao",
+    "West Visayas",
+    "Western Mindanao"
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae8f"
+  },
+  "COUNTRY_NAME": "Pakistan",
+  "COUNTRY_KEY": "PK",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "PKT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae90"
+  },
+  "COUNTRY_NAME": "Poland",
+  "COUNTRY_KEY": "PL",
+  "STATE": [
+    "",
+    "Dolnoslaskie",
+    "Kujawsko-Pomorskie",
+    "Lodzkie",
+    "Lódzkie",
+    "Lubelskie",
+    "Lubuskie",
+    "Malopolskie",
+    "Mazowieckie",
+    "Opolskie",
+    "Podkarpackie",
+    "Podlaskie",
+    "Pomorskie",
+    "Slaskie",
+    "Swietokrzyskie",
+    "Warminsko-mazurskie",
+    "Wielkopolskie",
+    "Zachodnio-Pomorskie"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae91"
+  },
+  "COUNTRY_NAME": "St. Pierre and Miquelon",
+  "COUNTRY_KEY": "PM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "PIERRE",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae92"
+  },
+  "COUNTRY_NAME": "Pitcairn Islands",
+  "COUNTRY_KEY": "PN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-8",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae93"
+  },
+  "COUNTRY_NAME": "Puerto Rico",
+  "COUNTRY_KEY": "PR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae94"
+  },
+  "COUNTRY_NAME": "Palestine",
+  "COUNTRY_KEY": "PS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae95"
+  },
+  "COUNTRY_NAME": "Portugal",
+  "COUNTRY_KEY": "PT",
+  "STATE": [
+    "",
+    "Alentejo Central",
+    "Alentejo Litoral",
+    "Algarve",
+    "Alto Alentejo",
+    "Alto Tras-os-Montes",
+    "Alto Trás-os-Montes",
+    "Ave",
+    "Baixo Alentejo",
+    "Baixo Mondego",
+    "Baixo Vouga",
+    "Beira Interior Norte",
+    "Beira Interior Sul",
+    "Cavado",
+    "Cávado",
+    "Cova da Beira",
+    "Dao-Lafoes",
+    "Dão-Lafoes",
+    "Douro",
+    "Entre Douro e Vouga",
+    "Grande Lisboa",
+    "Grande Porto",
+    "Leziria do Tejo",
+    "Lezíria do Tejo",
+    "Medio Tejo",
+    "Médio Tejo",
+    "Minho-Lima",
+    "Oeste",
+    "Peninsula de Setubal",
+    "Península de Setúbal",
+    "Pinhal Interior N.",
+    "Pinhal Interior Sul",
+    "Pinhal Litoral",
+    "Reg. Aut. da Madeira",
+    "Reg. Aut. dos Açores",
+    "Serra da Estrela",
+    "Tamega",
+    "Tâmega"
+  ],
+  "TIME_ZONE": "WET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae96"
+  },
+  "COUNTRY_NAME": "Palau",
+  "COUNTRY_KEY": "PW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+9",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae97"
+  },
+  "COUNTRY_NAME": "Paraguay",
+  "COUNTRY_KEY": "PY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "PARAGY",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae98"
+  },
+  "COUNTRY_NAME": "Qatar",
+  "COUNTRY_KEY": "QA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae99"
+  },
+  "COUNTRY_NAME": "Reunion",
+  "COUNTRY_KEY": "RE",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae9a"
+  },
+  "COUNTRY_NAME": "Romania",
+  "COUNTRY_KEY": "RO",
+  "STATE": [
+    "",
+    "Alba",
+    "Arad",
+    "Arges",
+    "Bacau",
+    "Bihor",
+    "Bistrita-Nasaud",
+    "Botosani",
+    "Braila",
+    "Brasov",
+    "Bucuresti",
+    "Buzau",
+    "Calarasi",
+    "Caras-Severin",
+    "Cluj",
+    "Constanta",
+    "Covasna",
+    "Dimbovita",
+    "Dolj",
+    "Galati",
+    "Giurgiu",
+    "Gorj",
+    "Harghita",
+    "Hunedoara",
+    "Ialomita",
+    "Iasi",
+    "Maramures",
+    "Mehedinti",
+    "Mures",
+    "Neamt",
+    "Olt",
+    "Prahova",
+    "Salaj",
+    "Satu Mare",
+    "Sibiu",
+    "Suceava",
+    "Teleorman",
+    "Timis",
+    "Tulcea",
+    "Vaslui",
+    "Vilcea",
+    "Vrancea"
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "7"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae9b"
+  },
+  "COUNTRY_NAME": "Serbia",
+  "COUNTRY_KEY": "RS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae9c"
+  },
+  "COUNTRY_NAME": "Russian Federation",
+  "COUNTRY_KEY": "RU",
+  "STATE": [
+    "",
+    "Adigeja Republic",
+    "Aginsk Buryat Aut.di",
+    "Altay Territory",
+    "Buryat Republic",
+    "c.Moscow",
+    "c.St-Peterburg",
+    "Chakassky Republic",
+    "Chanti-Mansyjsky Aut",
+    "Chechenskaya Republ.",
+    "Chukotka Auton. dist",
+    "Chuvash Republic",
+    "Dagestan Republic",
+    "Evensky Auton.distri",
+    "Highlands-Altay Rep.",
+    "Ingushetija Republic",
+    "Jamalo-Nenekchky Aut",
+    "Kabardino-Balkar.Rep",
+    "Kalmyk Republic",
+    "Karach.-Cherkessk Re",
+    "Karelian Republic",
+    "Khabarovsk Territory",
+    "Komi Republic",
+    "Komy Permjats.Aut.di",
+    "Korjacs Auton.distri",
+    "Krasnodar Territory",
+    "Krasnoyarsk Territor",
+    "Marijskaya Republic",
+    "Mordovian Republic",
+    "Nenekchky Auton.dist",
+    "North-Osetiya Republ",
+    "Primorye Territory",
+    "Republ.of Bashkortos",
+    "Stavropol Territory",
+    "Tatarstan Republic",
+    "The Amur Area",
+    "The Arkhangelsk Area",
+    "The Astrakhan Area",
+    "The Belgorod Area",
+    "The Bryansk Area",
+    "The Chelyabinsk Area",
+    "The Chita Area",
+    "The Irkutsk Area",
+    "The Ivanovo Area",
+    "The Jewish Auton.are",
+    "The Kaliningrad Area",
+    "The Kaluga Area",
+    "The Kamchatka Area",
+    "The Kemerovo Area",
+    "The Kirov Area",
+    "The Kostroma Area",
+    "The Kurgan Area",
+    "The Kursk Area",
+    "The Leningrad Area",
+    "The Lipetsk Area",
+    "The Magadan Area",
+    "The Moscow Area",
+    "The Murmansk Area",
+    "The Nizhniy Novgorod",
+    "The Novgorod Area",
+    "The Novosibirsk Area",
+    "The Omsk Area",
+    "The Orenburg Area",
+    "The Oryol Area",
+    "The Penza Area",
+    "The Perm Area",
+    "The Pskov Area",
+    "The Rostov Area",
+    "The Ryazan Area",
+    "The Sakhalin Area",
+    "The Samara Area",
+    "The Saratov Area",
+    "The Smolensk Area",
+    "The Sverdlovsk Area",
+    "The Tambov Area",
+    "The Taymir Auton.dis",
+    "The Tomsk Area",
+    "The Tula Area",
+    "The Tver Area",
+    "The Tyumen Area",
+    "The Udmurt Republic",
+    "The Ulyanovsk Area",
+    "The Vladimir Area",
+    "The Volgograd Area",
+    "The Vologda Area",
+    "The Voronezh Area",
+    "The Yaroslavl Area",
+    "Tuva Republic",
+    "Ust-Ordinsky Buryat",
+    "Yakutiya-Saha Rrepub"
+  ],
+  "TIME_ZONE": "RUS03",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae9d"
+  },
+  "COUNTRY_NAME": "Rwanda",
+  "COUNTRY_KEY": "RW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae9e"
+  },
+  "COUNTRY_NAME": "Saudi Arabia",
+  "COUNTRY_KEY": "SA",
+  "STATE": [
+    "",
+    "Hail",
+    "Madinah",
+    "Makkah",
+    "Qassim",
+    "Riyadh",
+    "Tabuk"
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1ae9f"
+  },
+  "COUNTRY_NAME": "Solomon Islands",
+  "COUNTRY_KEY": "SB",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea0"
+  },
+  "COUNTRY_NAME": "Seychelles",
+  "COUNTRY_KEY": "SC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea1"
+  },
+  "COUNTRY_NAME": "Sudan",
+  "COUNTRY_KEY": "SD",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea2"
+  },
+  "COUNTRY_NAME": "Sweden",
+  "COUNTRY_KEY": "SE",
+  "STATE": [
+    "",
+    "Blekinge County",
+    "Blekinge Län",
+    "Dalarnas County",
+    "Dalarnas Län",
+    "Gaevleborg County",
+    "Gävleborgs Län",
+    "Gotland County",
+    "Gotlands Län",
+    "Halland County",
+    "Hallands Län",
+    "Jaemtland County",
+    "Jämtlands Län",
+    "Joenkoeping County",
+    "Jönköpings Län",
+    "Kalmar County",
+    "Kalmar Län",
+    "Kronoberg County",
+    "Kronobergs Län",
+    "Norrbotten County",
+    "Norrbottens Län",
+    "Oerebro County",
+    "Oestergoetland Cnty",
+    "Örebro Län",
+    "Östergötlands Län",
+    "Skaane County",
+    "Skåne Län",
+    "Södermanlands Län",
+    "Soedermanland County",
+    "Stockholm County",
+    "Stockholms Län",
+    "Uppsala County",
+    "Uppsala Län",
+    "Vaermland County",
+    "Vaesterbotten County",
+    "Vaesternorrland Cnty",
+    "Vaestmanland County",
+    "Vaestra Goetaland C.",
+    "Värmlands Län",
+    "Västerbottens Län",
+    "Västernorrlands Län",
+    "Västmanlands Län",
+    "Västra Götalands Län"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea3"
+  },
+  "COUNTRY_NAME": "Singapore",
+  "COUNTRY_KEY": "SG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea4"
+  },
+  "COUNTRY_NAME": "Saint Helena",
+  "COUNTRY_KEY": "SH",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea5"
+  },
+  "COUNTRY_NAME": "Slovenia",
+  "COUNTRY_KEY": "SI",
+  "STATE": [
+    "",
+    "Ajdovscina",
+    "Brezice",
+    "Celje",
+    "Cerknica",
+    "Crnomelj",
+    "Dravograd",
+    "Gornja Radgona",
+    "Grosuplje",
+    "Hrastnik Lasko",
+    "Idrija",
+    "Ilirska Bistrica",
+    "Izola",
+    "Jesenice",
+    "Kamnik",
+    "Kocevje",
+    "Koper",
+    "Kranj",
+    "Krsko",
+    "Lenart",
+    "Lendava",
+    "Litija",
+    "Ljubljana-Bezigrad",
+    "Ljubljana-Center",
+    "Ljubljana-Moste-Polj",
+    "Ljubljana-Siska",
+    "Ljubljana-Vic-Rudnik",
+    "Ljutomer",
+    "Logatec",
+    "Maribor",
+    "Metlika",
+    "Mozirje",
+    "Murska Sobota",
+    "Nova Gorica",
+    "Novo Mesto",
+    "Ormoz",
+    "Pesnica",
+    "Piran",
+    "Postojna",
+    "Ptuj",
+    "Radlje Ob Dravi",
+    "Radovljica",
+    "Ravne Na Koroskem",
+    "Ribnica",
+    "Ruse",
+    "Sentjur Pri Celju",
+    "Sevnica",
+    "Sezana",
+    "Skofja Loka",
+    "Slovenj Gradec",
+    "Slovenska Bistrica",
+    "Slovenske Konjice",
+    "Smarje Pri Jelsah",
+    "Tolmin",
+    "Trbovlje",
+    "Trebnje",
+    "Trzic",
+    "Velenje",
+    "Vrhnika",
+    "Zagorje Ob Savi",
+    "Zalec"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea6"
+  },
+  "COUNTRY_NAME": "Svalbard",
+  "COUNTRY_KEY": "SJ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea7"
+  },
+  "COUNTRY_NAME": "Slovakia",
+  "COUNTRY_KEY": "SK",
+  "STATE": [
+    "",
+    "Bratislava",
+    "Stredoslovensky",
+    "Vychodoslovensky",
+    "Zapadoslovensky"
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "6"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea8"
+  },
+  "COUNTRY_NAME": "Sierra Leone",
+  "COUNTRY_KEY": "SL",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aea9"
+  },
+  "COUNTRY_NAME": "San Marino",
+  "COUNTRY_KEY": "SM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeaa"
+  },
+  "COUNTRY_NAME": "Senegal",
+  "COUNTRY_KEY": "SN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeab"
+  },
+  "COUNTRY_NAME": "Somalia",
+  "COUNTRY_KEY": "SO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeac"
+  },
+  "COUNTRY_NAME": "Suriname",
+  "COUNTRY_KEY": "SR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aead"
+  },
+  "COUNTRY_NAME": "Sao Tome and Principe",
+  "COUNTRY_KEY": "ST",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeae"
+  },
+  "COUNTRY_NAME": "El Salvador",
+  "COUNTRY_KEY": "SV",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-6",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeaf"
+  },
+  "COUNTRY_NAME": "Syria",
+  "COUNTRY_KEY": "SY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "SYRIA",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb0"
+  },
+  "COUNTRY_NAME": "Swaziland",
+  "COUNTRY_KEY": "SZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb1"
+  },
+  "COUNTRY_NAME": "Turks and Caicos Islands",
+  "COUNTRY_KEY": "TC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "EST",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb2"
+  },
+  "COUNTRY_NAME": "Chad",
+  "COUNTRY_KEY": "TD",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "WAT",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb3"
+  },
+  "COUNTRY_NAME": "",
+  "COUNTRY_KEY": "TF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb4"
+  },
+  "COUNTRY_NAME": "Togo",
+  "COUNTRY_KEY": "TG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb5"
+  },
+  "COUNTRY_NAME": "Thailand",
+  "COUNTRY_KEY": "TH",
+  "STATE": [
+    "",
+    "Amnat Charoen",
+    "Ang Thong",
+    "Buriram",
+    "Chachoengsao",
+    "Chai Nat",
+    "Chaiyaphum",
+    "Chanthaburi",
+    "Chiang Mai",
+    "Chiang Rai",
+    "Chon Buri",
+    "Chumphon",
+    "Kalasin",
+    "Kamphaeng Phet",
+    "Kanchanaburi",
+    "Khon Kaen",
+    "Krabi",
+    "Krung Thep",
+    "Lampang",
+    "Lamphun",
+    "Loei",
+    "Lop Buri",
+    "Mae Hong Son",
+    "Maha Sarakham",
+    "Mahanakhon",
+    "Mukdahan",
+    "Nakhon Nayok",
+    "Nakhon Pathom",
+    "Nakhon Phanom",
+    "Nakhon Ratchasima",
+    "Nakhon Sawan",
+    "Nakhon Si Thammarat",
+    "Nan",
+    "Narathiwat",
+    "Nong Bua Lamphu",
+    "Nong Khai",
+    "Nonthaburi",
+    "Pathum Thani",
+    "Pattani",
+    "Phangnga",
+    "Phatthalung",
+    "Phayao",
+    "Phetchabun",
+    "Phetchaburi",
+    "Phichit",
+    "Phitsanulok",
+    "Phra Nakhon Si Ayut.",
+    "Phrae",
+    "Phuket",
+    "Prachin Buri"
+  ],
+  "TIME_ZONE": "UTC+7",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb6"
+  },
+  "COUNTRY_NAME": "Tajikistan",
+  "COUNTRY_KEY": "TJ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb7"
+  },
+  "COUNTRY_NAME": "Tokelau Islands",
+  "COUNTRY_KEY": "TK",
+  "STATE": [
+    "",
+    "Adana",
+    "Adiyaman",
+    "Afyon",
+    "Agri",
+    "Aksaray",
+    "Amasya",
+    "Ankara",
+    "Antalya",
+    "Ardahan",
+    "Artvin",
+    "Aydin",
+    "Balikesir",
+    "Bartin",
+    "Batman",
+    "Bayburt",
+    "Bilecik",
+    "Bingöl",
+    "Bitlis",
+    "Bolu",
+    "Burdur",
+    "Bursa",
+    "Canakkale",
+    "Cankiri",
+    "Corum",
+    "Denizli",
+    "Diyarbakir",
+    "Edirne",
+    "Elazig",
+    "Erzincan",
+    "Erzurum",
+    "Eskisehir",
+    "Gaziantep",
+    "Giresun",
+    "Guemueshane",
+    "Gümüshane",
+    "Hakkari",
+    "Hatay",
+    "Icel",
+    "Igdir",
+    "Isparta",
+    "Istanbul",
+    "Izmir",
+    "K.Marash",
+    "Karaman",
+    "Kars",
+    "Kastamonu",
+    "Kayseri",
+    "Kirikkale",
+    "Kirklareli",
+    "Kirshehir",
+    "Kocaeli",
+    "Konya",
+    "Kuetahya",
+    "Kütahya",
+    "Malatya",
+    "Manisa",
+    "Mardin",
+    "Mugla",
+    "Mush",
+    "Nevshehir",
+    "Nigde",
+    "Ordu",
+    "Rize",
+    "Sakarya",
+    "Samsun",
+    "Shanliurfa",
+    "Shirnak",
+    "Siirt",
+    "Sinop",
+    "Sivas",
+    "Tekirdag",
+    "Tokat",
+    "Trabzon",
+    "Tunceli",
+    "Ushak",
+    "Van",
+    "Yalova",
+    "Yozgat",
+    "Zonguldak"
+  ],
+  "TIME_ZONE": "UTC-10",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb8"
+  },
+  "COUNTRY_NAME": "East Timor",
+  "COUNTRY_KEY": "TL",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+9",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeb9"
+  },
+  "COUNTRY_NAME": "Turkmenistan",
+  "COUNTRY_KEY": "TM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeba"
+  },
+  "COUNTRY_NAME": "Tunisia",
+  "COUNTRY_KEY": "TN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+1",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aebb"
+  },
+  "COUNTRY_NAME": "Tonga",
+  "COUNTRY_KEY": "TO",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+13",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aebc"
+  },
+  "COUNTRY_NAME": "East Timor",
+  "COUNTRY_KEY": "TP",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aebd"
+  },
+  "COUNTRY_NAME": "Turkey",
+  "COUNTRY_KEY": "TR",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "TURKEY",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aebe"
+  },
+  "COUNTRY_NAME": "Trinidad and Tobago",
+  "COUNTRY_KEY": "TT",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aebf"
+  },
+  "COUNTRY_NAME": "Tuvalu",
+  "COUNTRY_KEY": "TV",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+12",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec0"
+  },
+  "COUNTRY_NAME": "Taiwan",
+  "COUNTRY_KEY": "TW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+8",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec1"
+  },
+  "COUNTRY_NAME": "Tanzania",
+  "COUNTRY_KEY": "TZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec2"
+  },
+  "COUNTRY_NAME": "Ukraine",
+  "COUNTRY_KEY": "UA",
+  "STATE": [
+    "",
+    "Cherkas'ka",
+    "Chernigivs'ka",
+    "Chernovits'ka",
+    "Dnipropetrovs'ka",
+    "Donets'ka",
+    "Harkivs'ka",
+    "Hersons'ka",
+    "Hmel'nits'ka",
+    "Ivano-Frankivs'ka",
+    "Kievs'ka",
+    "Kirovograds'ka",
+    "Kyiv",
+    "Lugans'ka",
+    "L'vivsbka",
+    "m.Kiev",
+    "m.Sevastopil'",
+    "Mikolaivs'ka",
+    "Odes'ka",
+    "Poltavs'ka",
+    "Respublika Krim",
+    "Rivnens'ka",
+    "Sums'ka",
+    "Ternopil's'ka",
+    "Vinnits'ka",
+    "Volins'ka",
+    "Zakarpats'ka",
+    "Zaporiz'ka",
+    "Zhitomirs'ka"
+  ],
+  "TIME_ZONE": "EET",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec3"
+  },
+  "COUNTRY_NAME": "Uganda",
+  "COUNTRY_KEY": "UG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec4"
+  },
+  "COUNTRY_NAME": "American Minor Outlying Islands",
+  "COUNTRY_KEY": "UM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec5"
+  },
+  "COUNTRY_NAME": "United Nations",
+  "COUNTRY_KEY": "UN",
+  "STATE": [
+    ""
+  ],
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec6"
+  },
+  "COUNTRY_NAME": "USA",
+  "COUNTRY_KEY": "US",
+  "STATE": [
+    "",
+    "Alabama",
+    "Alaska",
+    "American Samoa",
+    "Arizona",
+    "Arkansas",
+    "California",
+    "Colorado",
+    "Connecticut",
+    "Delaware",
+    "District of Columbia",
+    "Florida",
+    "Georgia",
+    "Guam",
+    "Hawaii",
+    "Idaho",
+    "Illinois",
+    "Indiana",
+    "Iowa",
+    "Kansas",
+    "Kentucky",
+    "Louisiana",
+    "Maine",
+    "Maryland",
+    "Massachusetts",
+    "Michigan",
+    "Minnesota",
+    "Mississippi",
+    "Missouri",
+    "Montana",
+    "Nebraska",
+    "Nevada",
+    "New Hampshire",
+    "New Jersey",
+    "New Mexico",
+    "New York",
+    "North Carolina",
+    "North Dakota",
+    "Northern Mariana Isl",
+    "Ohio",
+    "Oklahoma",
+    "Oregon",
+    "Pennsylvania",
+    "Puerto Rico",
+    "Rhode Island",
+    "South Carolina",
+    "South Dakota",
+    "Tennessee",
+    "Texas",
+    "Utah",
+    "Vermont",
+    "Virgin Islands",
+    "Virginia",
+    "Washington",
+    "West Virginia",
+    "Wisconsin",
+    "Wyoming"
+  ],
+  "TIME_ZONE": "CST",
+  "POSTAL_CODE_LENGTH": "10"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec7"
+  },
+  "COUNTRY_NAME": "Uruguay",
+  "COUNTRY_KEY": "UY",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "URUGUA",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec8"
+  },
+  "COUNTRY_NAME": "Uzbekistan",
+  "COUNTRY_KEY": "UZ",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+5",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aec9"
+  },
+  "COUNTRY_NAME": "Vatican City",
+  "COUNTRY_KEY": "VA",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CET",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aeca"
+  },
+  "COUNTRY_NAME": "St. Vincent and the Grenadines",
+  "COUNTRY_KEY": "VC",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aecb"
+  },
+  "COUNTRY_NAME": "Venezuela",
+  "COUNTRY_KEY": "VE",
+  "STATE": [
+    "",
+    "Amazon",
+    "Amazonas",
+    "Anzoategui",
+    "Apure",
+    "Aragua",
+    "Barinas",
+    "BOLIVAR",
+    "Carabobo",
+    "Cojedes",
+    "Delta Amacuro",
+    "Distrito Federal",
+    "Falcon",
+    "Guarico",
+    "Lara",
+    "Merida",
+    "Miranda",
+    "Monagas",
+    "Nueva Esparta",
+    "Portuguesa",
+    "SUCRE",
+    "Tachira",
+    "Trujillo",
+    "Vargas",
+    "Yaracuy",
+    "Zulia"
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aecc"
+  },
+  "COUNTRY_NAME": "British Virgin Islands",
+  "COUNTRY_KEY": "VG",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aecd"
+  },
+  "COUNTRY_NAME": "American Virgin Islands",
+  "COUNTRY_KEY": "VI",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-4",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aece"
+  },
+  "COUNTRY_NAME": "Vietnam",
+  "COUNTRY_KEY": "VN",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+7",
+  "POSTAL_CODE_LENGTH": "5"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aecf"
+  },
+  "COUNTRY_NAME": "Vanuatu",
+  "COUNTRY_KEY": "VU",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed0"
+  },
+  "COUNTRY_NAME": "Wallis and Futuna Islands",
+  "COUNTRY_KEY": "WF",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+12",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed1"
+  },
+  "COUNTRY_NAME": "Samoa",
+  "COUNTRY_KEY": "WS",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC-11",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed2"
+  },
+  "COUNTRY_NAME": "Yemen",
+  "COUNTRY_KEY": "YE",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed3"
+  },
+  "COUNTRY_NAME": "Mayotte",
+  "COUNTRY_KEY": "YT",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "UTC+3",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed4"
+  },
+  "COUNTRY_NAME": "South Africa",
+  "COUNTRY_KEY": "ZA",
+  "STATE": [
+    "",
+    "Eastern Cape",
+    "Freestate",
+    "Gauteng",
+    "Kwazulu/Natal",
+    "Mpumalanga",
+    "Northern Cape",
+    "Northern Province",
+    "Northwest",
+    "North-West",
+    "Western Cape"
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "4"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed5"
+  },
+  "COUNTRY_NAME": "Zambia",
+  "COUNTRY_KEY": "ZM",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648b3cd34cde9d63eda1aed6"
+  },
+  "COUNTRY_NAME": "Zimbabwe",
+  "COUNTRY_KEY": "ZW",
+  "STATE": [
+    ""
+  ],
+  "TIME_ZONE": "CAT",
+  "POSTAL_CODE_LENGTH": "0"
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca453a"
+  },
+  "COUNTRY_KEY": "AX",
+  "TIME_ZONE": "EET",
+  "COUNTRY_NAME": "Aland Islands",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca4549"
+  },
+  "COUNTRY_KEY": "BQ",
+  "TIME_ZONE": "UTC-4",
+  "COUNTRY_NAME": "Bonaire, Saba",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca4560"
+  },
+  "COUNTRY_KEY": "CW",
+  "TIME_ZONE": "UTC-4",
+  "COUNTRY_NAME": "Curacao",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca457c"
+  },
+  "COUNTRY_KEY": "GG",
+  "TIME_ZONE": "GMTUK",
+  "COUNTRY_NAME": "French Guayana",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca4593"
+  },
+  "COUNTRY_KEY": "IM",
+  "TIME_ZONE": "GMTUK",
+  "COUNTRY_NAME": "Israel",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca459a"
+  },
+  "COUNTRY_KEY": "JE",
+  "TIME_ZONE": "GMTUK",
+  "COUNTRY_NAME": "Italy",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca45ba"
+  },
+  "COUNTRY_KEY": "MF",
+  "TIME_ZONE": "UTC-4",
+  "COUNTRY_NAME": "Madagascar",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca45fd"
+  },
+  "COUNTRY_KEY": "SS",
+  "TIME_ZONE": "UTC-3",
+  "COUNTRY_NAME": "South Sudan",
+  "STATE": []
+},
+{
+  "_id": {
+    "$oid": "648999480a1fc9d5f3ca4600"
+  },
+  "COUNTRY_KEY": "SX",
+  "TIME_ZONE": "UTC-4",
+  "COUNTRY_NAME": "Sint Maarten",
+  "STATE": []
+}]
