@@ -9,6 +9,9 @@ const resource =
 const tenant = "samishti.sharepoint.com";
 const site = "contactmanagementsystem_test";
 const resourceId = "4a65d39e-b3a8-402e-86b0-c1316ba372ba";
+const client_id_teams = "7d203557-0b58-4cc6-a0e6-ea307cab4fe2";
+const client_secret_teams = "eeQ8Q~w-lwo1ECTLrdy7X7FiArU6O8MZEoxbNcrb";
+const scope_teams = "https://graph.microsoft.com/.default";
 // ----------------
 // KRC
 // const client_id =
@@ -20,7 +23,7 @@ const resourceId = "4a65d39e-b3a8-402e-86b0-c1316ba372ba";
 // const site = "InorbitContactManagementSystem";
 // const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
 
-module.exports= {
+module.exports = {
   grant_type,
   client_id,
   client_secret,
@@ -28,4 +31,7 @@ module.exports= {
   tenant,
   site,
   resourceId,
+  client_id_teams,
+  client_secret_teams,
+  scope_teams,
 };

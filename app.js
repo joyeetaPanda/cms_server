@@ -21,6 +21,19 @@ app.use(fileUpload());
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");
 
+// app.use((req, res, next) => {
+//   const allowedOrigins = ["https://14.142.244.14:443/","https://inorbitcontactmanagement.kraheja.com"];
+//   const origin = req.headers.origin;
+//   console.log("header", req.headers.origin);
+//   if (allowedOrigins.includes(origin)) {
+//     res.setHeader("Access-Control-Allow-Origin", origin);
+//     return next();
+//   }
+// });
+
+var mailAccessToken = require("./apis/MailSend/getAccessToken");
+app.use("/apis/MailSend/getAccessToken", mailAccessToken);
+
 var bulkMailSend = require("./apis/MailSend/BulkMailSend");
 app.use("/apis/MailSend/BulkMailSend", bulkMailSend);
 
