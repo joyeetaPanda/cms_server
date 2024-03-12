@@ -92,6 +92,7 @@ var mailHistoryCreateRouter = require("./apis/sharepoint/mailHistoryCreate");
 app.use("/apis/sharepoint/mailHistoryCreate", mailHistoryCreateRouter);
 
 // app.use(express.static(__dirname + "/assets/tax_documents"));
+app.use(express.static(__dirname + "/assets/mailImage"));
 
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development

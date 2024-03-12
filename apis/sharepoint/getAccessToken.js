@@ -2,6 +2,8 @@ var express = require("express");
 var router = express.Router();
 var axios = require("axios");
 const clientData = require("../../constants/clientData");
+var FormData = require("form-data");
+
 
 /*   
 API url: -   
@@ -18,7 +20,7 @@ router.get("/", async function (req, res, next) {
 
     axios
       .post(
-        ` https://accounts.accesscontrol.windows.net/${clientData.resourceId}/tokens/OAuth/2/`,
+        `https://accounts.accesscontrol.windows.net/${clientData.resourceId}/tokens/OAuth/2/`,
         authData
       )
       .then((response) => {

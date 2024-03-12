@@ -29,7 +29,7 @@ router.post("/", async function (req, res, next) {
     let MAILTO = JSON.parse(formData.MAILTO);
     let bcc = JSON.parse(formData.BCC);
     let cc = JSON.parse(formData.CC);
-    console.log("hsdgfhsg", formData.CONTENT);
+    // console.log("hsdgfhsg", formData.CONTENT);
     let ccMail = [];
     let bccMail = [];
     cc.map((val) => {
@@ -164,6 +164,7 @@ router.post("/", async function (req, res, next) {
               MAILTO.length,
               formData.SUBJECT,
               formData.CONTENT,
+              // mailContent,
               formData.HTML,
               attach
             );

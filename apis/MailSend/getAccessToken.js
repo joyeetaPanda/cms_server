@@ -11,9 +11,10 @@ http://localhost:9000/apis/MailSend/getAccessToken
 
 router.get("/", async function (req, res, next) {
   try {
+    const tenant_id = clientData.tenant_id;
     let data = qs.stringify({
-      client_id: "7d203557-0b58-4cc6-a0e6-ea307cab4fe2",
-      client_secret: "eeQ8Q~w-lwo1ECTLrdy7X7FiArU6O8MZEoxbNcrb",
+      client_id: clientData.client_id_teams,
+      client_secret: clientData.client_secret_teams,
       scope: "https://graph.microsoft.com/.default",
       grant_type: "client_credentials",
     });
@@ -21,11 +22,11 @@ router.get("/", async function (req, res, next) {
     let config = {
       method: "post",
       maxBodyLength: Infinity,
-      url: "https://login.microsoftonline.com/4a65d39e-b3a8-402e-86b0-c1316ba372ba/oauth2/v2.0/token",
+      url: `https://login.microsoftonline.com/${tenant_id}/oauth2/v2.0/token`,
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
-        Cookie:
-          "fpc=AnJsRAhfEMxGpcCziqQfLDa13N-iAQAAADMEcd0OAAAA; stsservicecookie=estsfd; x-ms-gateway-slice=estsfd",
+        // Cookie:
+        //   "fpc=AnJsRAhfEMxGpcCziqQfLDa13N-iAQAAADMEcd0OAAAA; stsservicecookie=estsfd; x-ms-gateway-slice=estsfd",
       },
       data: data,
     };

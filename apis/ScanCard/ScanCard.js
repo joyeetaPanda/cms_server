@@ -36,12 +36,12 @@ router.post("/", async function (req, res, next) {
           } else {
             console.log("Doc uploaded");
             // -----------------------------------------------
-            const key = "f71e363e93014f2a910a1dcc43b827f9"; //Samishti key
-            // const key = "b28919856b07403784d01eb6b7c9a0d1";//KRC key
-            const endpoint =
-              "https://centralindia.api.cognitive.microsoft.com/"; //Samishti endpoint
+            // const key = "f71e363e93014f2a910a1dcc43b827f9"; //Samishti key
+            const key = "b28919856b07403784d01eb6b7c9a0d1";//KRC key
             // const endpoint =
-            //   "https://inorbit-cms-doc-intelligence.cognitiveservices.azure.com/";//KRC endpoint
+            //   "https://centralindia.api.cognitive.microsoft.com/"; //Samishti endpoint
+            const endpoint =
+              "https://inorbit-cms-doc-intelligence.cognitiveservices.azure.com/";//KRC endpoint
 
             const localImagePath =
               __dirname +
