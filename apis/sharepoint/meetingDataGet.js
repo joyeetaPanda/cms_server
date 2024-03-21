@@ -16,7 +16,7 @@ router.get("/", async function (req, res, next) {
 
     axios
       .get(
-        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items`,
+        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items?$top=50000`,
         {
           headers: {
             Authorization: "Bearer " + token,
@@ -24,7 +24,6 @@ router.get("/", async function (req, res, next) {
         }
       )
       .then((response) => {
-
         res.send({ value: response.data.value });
       })
       .catch((error) => {

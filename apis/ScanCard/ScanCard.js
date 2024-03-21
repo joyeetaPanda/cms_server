@@ -12,11 +12,6 @@ API url: -
 http://localhost:9000/apis/ScanCard/ScanCard
  
 
-   [ {"EMAIL_ID":"rahul.rohilla1081@gmail.com",
-    "NAME":"RAHUL",
-"SUBJECT":"abcd",
-"CONTENT":"abcd"
-}]
 
 */
 
@@ -37,11 +32,11 @@ router.post("/", async function (req, res, next) {
             console.log("Doc uploaded");
             // -----------------------------------------------
             // const key = "f71e363e93014f2a910a1dcc43b827f9"; //Samishti key
-            const key = "b28919856b07403784d01eb6b7c9a0d1";//KRC key
+            const key = "b28919856b07403784d01eb6b7c9a0d1"; //KRC key
             // const endpoint =
             //   "https://centralindia.api.cognitive.microsoft.com/"; //Samishti endpoint
             const endpoint =
-              "https://inorbit-cms-doc-intelligence.cognitiveservices.azure.com/";//KRC endpoint
+              "https://inorbit-cms-doc-intelligence.cognitiveservices.azure.com/"; //KRC endpoint
 
             const localImagePath =
               __dirname +
@@ -159,15 +154,17 @@ router.post("/", async function (req, res, next) {
               //   console.log("businessCard", businessCard.WorkPhones.values);
               res.send(contactData);
             } else {
-              throw new Error(
-                "Expected at least one business card in the result."
-              );
+              // throw new Error(
+              //   "Expected at least one business card in the result."
+              // );
               res.send("Error");
             }
             // ------------------
           }
         });
       });
+    } else {
+      res.send("No file");
     }
   } catch (e) {
     console.log({ error: e, fileName: __filename });

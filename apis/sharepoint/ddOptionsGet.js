@@ -16,7 +16,7 @@ router.get("/", async function (req, res, next) {
 
     axios
       .get(
-        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('dropdownOptions')/items`,
+        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('dropdownOptions')/items?$top=1000`,
         {
           headers: {
             Authorization: "Bearer " + token,
