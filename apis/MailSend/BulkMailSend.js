@@ -87,7 +87,7 @@ router.post("/", async function (req, res, next) {
           subject: subject,
           body: {
             contentType: "html",
-            content: `<body style='background-color: #fff;'> <div class='es-wrapper-color' style='background-color: #fff;'> <p>${name}</p>
+            content: `<body style='background-color: #fff;'> <div class='es-wrapper-color' style='background-color: #fff;'> 
         <p> ${content} </p>${html}</div></body>`,
           },
           toRecipients: [
@@ -126,7 +126,7 @@ router.post("/", async function (req, res, next) {
         })
         .catch((errorMail) => {
           // console.log(errorMail);
-          res.send({ error: e, fileName: __filename });
+          res.send({ error: errorMail, fileName: __filename });
         });
     };
     let data = qs.stringify({
@@ -176,6 +176,7 @@ router.post("/", async function (req, res, next) {
       .catch((error) => {
         // console.log("Mail Catch", error);
         res.send("Mail access token error:", error);
+        return;
       });
   } catch (e) {
     // console.log({ error: e, fileName: __filename });

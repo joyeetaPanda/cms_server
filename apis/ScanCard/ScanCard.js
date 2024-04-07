@@ -31,10 +31,8 @@ router.post("/", async function (req, res, next) {
           } else {
             console.log("Doc uploaded");
             // -----------------------------------------------
-            // const key = "f71e363e93014f2a910a1dcc43b827f9"; //Samishti key
             const key = "b28919856b07403784d01eb6b7c9a0d1"; //KRC key
-            // const endpoint =
-            //   "https://centralindia.api.cognitive.microsoft.com/"; //Samishti endpoint
+
             const endpoint =
               "https://inorbit-cms-doc-intelligence.cognitiveservices.azure.com/"; //KRC endpoint
 
@@ -48,117 +46,137 @@ router.post("/", async function (req, res, next) {
               endpoint,
               new AzureKeyCredential(key)
             );
+            if (client) {
+              // Read the file into a buffer
+              const fileBuffer = fs.readFileSync(localImagePath);
 
-            // Read the file into a buffer
-            const fileBuffer = fs.readFileSync(localImagePath);
+              const poller = await client.beginAnalyzeDocument(
+                "prebuilt-businessCard",
+                fileBuffer
+              );
 
-            const poller = await client.beginAnalyzeDocument(
-              "prebuilt-businessCard",
-              fileBuffer
-            );
+              //  const {
+              //    documents: [result],
+              //  } =
 
-            const {
-              documents: [result],
-            } = await poller.pollUntilDone();
-
-            let contactData = {};
-
-            if (result) {
-              const businessCard = result.fields;
-              console.log("=== Business Card Information ===", businessCard);
-
-              const name =
-                businessCard.ContactNames &&
-                businessCard.ContactNames.values[0];
-              if (name) {
-                const { FirstName, LastName } = name.properties;
-                console.log(
-                  "Name:",
-                  FirstName && FirstName.content,
-                  LastName && LastName.content
-                );
-                contactData.name0 = FirstName.content + " " + LastName.content;
-              }
-              const company =
-                businessCard.CompanyNames &&
-                businessCard.CompanyNames.values[0];
-              if (company) {
-                console.log("Company:", company.content);
-                contactData.company = company.content;
-              }
-
-              const address =
-                businessCard.Addresses && businessCard.Addresses.values[0];
-              if (address) {
-                console.log("Address:", address.content);
-                contactData.address = address.content;
-              }
-
-              const job_titles =
-                businessCard.JobTitles && businessCard.JobTitles.values[0];
-              if (job_titles) {
-                console.log("Job Title:", job_titles.content);
-                contactData.designation = job_titles.content;
-              }
-
-              const email =
-                businessCard.Emails && businessCard.Emails.values[0];
-              if (email) {
-                console.log("Email:", email.content);
-                contactData.email = email.content;
-              }
-
-              const mobile_no =
-                businessCard.MobilePhones &&
-                businessCard.MobilePhones.values[0];
-              if (mobile_no) {
-                console.log("Mobile Number:", mobile_no.content);
-                contactData.mobile = mobile_no.content;
-              }
-              const otherphone =
-                businessCard.OtherPhones && businessCard.OtherPhones.values[0];
-
-              if (otherphone) {
-                console.log("Other Phone:", otherphones.content);
-                if (mobile_no) {
-                  contactData.landline = otherphones.content;
-                } else {
-                  contactData.mobile = otherphones.content;
-                  if (
-                    businessCard.OtherPhones &&
-                    businessCard.OtherPhones.values.length > 1
-                  ) {
-                    contactData.landline =
-                      businessCard.OtherPhones.values[1].content;
+              await poller
+                .pollUntilDone()
+                .then((response) => {
+                  let result;
+                  if (response != null) {
+                    result = response.documents[0];
                   }
-                }
-              }
+                  let contactData = {};
 
-              const workphone =
-                businessCard.WorkPhones && businessCard.WorkPhones.values[0];
-              if (workphone) {
-                console.log("Work Phone:", workphone.content);
-                if (mobile_no) {
-                  contactData.landline = workphone.content;
-                } else {
-                  contactData.mobile = workphone.content;
-                  if (
-                    businessCard.WorkPhones &&
-                    businessCard.WorkPhones.values.length > 1
-                  ) {
-                    contactData.landline =
-                      businessCard.WorkPhones.values[1].content;
+                  if (result) {
+                    const businessCard = result.fields;
+                    // console.log("=== Business Card Information ===", businessCard);
+
+                    const name =
+                      businessCard.ContactNames &&
+                      businessCard.ContactNames.values[0];
+                    if (name) {
+                      const { FirstName, LastName } = name.properties;
+                      // console.log(
+                      //   "Name:",
+                      //   FirstName && FirstName.content,
+                      //   LastName && LastName.content
+                      // );
+                      contactData.name0 =
+                        FirstName.content + " " + LastName.content;
+                    }
+                    const company =
+                      businessCard.CompanyNames &&
+                      businessCard.CompanyNames.values[0];
+                    if (company) {
+                      // console.log("Company:", company.content);
+                      contactData.company = company.content;
+                    }
+
+                    const address =
+                      businessCard.Addresses &&
+                      businessCard.Addresses.values[0];
+                    if (address) {
+                      // console.log("Address:", address.content);
+                      contactData.address = address.content;
+                    }
+
+                    const job_titles =
+                      businessCard.JobTitles &&
+                      businessCard.JobTitles.values[0];
+                    if (job_titles) {
+                      // console.log("Job Title:", job_titles.content);
+                      contactData.designation = job_titles.content;
+                    }
+
+                    const email =
+                      businessCard.Emails && businessCard.Emails.values[0];
+                    if (email) {
+                      // console.log("Email:", email.content);
+                      contactData.email = email.content;
+                    }
+
+                    const mobile_no =
+                      businessCard.MobilePhones &&
+                      businessCard.MobilePhones.values[0];
+                    if (mobile_no) {
+                      // console.log("Mobile Number:", mobile_no.content);
+                      contactData.mobile = mobile_no.content;
+                    }
+                    const otherphone =
+                      businessCard.OtherPhones &&
+                      businessCard.OtherPhones.values[0];
+
+                    if (otherphone) {
+                      // console.log("Other Phone:", otherphones.content);
+                      if (mobile_no) {
+                        contactData.landline = otherphone.content;
+                      } else {
+                        contactData.mobile = otherphone.content;
+                        if (
+                          businessCard.OtherPhones &&
+                          businessCard.OtherPhones.values.length > 1
+                        ) {
+                          contactData.landline =
+                            businessCard.OtherPhones.values[1].content;
+                        }
+                      }
+                    }
+
+                    const workphone =
+                      businessCard.WorkPhones &&
+                      businessCard.WorkPhones.values[0];
+                    if (workphone) {
+                      // console.log("Work Phone:", workphone.content);
+                      if (mobile_no) {
+                        contactData.landline = workphone.content;
+                      } else {
+                        contactData.mobile = workphone.content;
+                        if (
+                          businessCard.WorkPhones &&
+                          businessCard.WorkPhones.values.length > 1
+                        ) {
+                          contactData.landline =
+                            businessCard.WorkPhones.values[1].content;
+                        }
+                      }
+                    }
+                    //   console.log("businessCard", businessCard.WorkPhones.values);
+                    res.send(contactData);
+                  } else {
+                    // throw new Error(
+                    //   "Expected at least one business card in the result."
+                    // );
+                    res.send("Error");
                   }
-                }
-              }
-              //   console.log("businessCard", businessCard.WorkPhones.values);
-              res.send(contactData);
+                })
+                .catch((err) => {
+                  console.log("asdasdasd", err);
+                });
             } else {
-              // throw new Error(
-              //   "Expected at least one business card in the result."
-              // );
-              res.send("Error");
+              res.send("No client");
             }
+
             // ------------------
           }
         });

@@ -24,6 +24,7 @@ router.get("/", async function (req, res, next) {
         }
       )
       .then((response) => {
+        console.log("hdsj", response.data.value);
         res.send({ value: response.data.value });
       })
       .catch((error) => {

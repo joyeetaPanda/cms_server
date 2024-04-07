@@ -91,6 +91,9 @@ app.use("/apis/sharepoint/meetingDelete", meetingDeleteRouter);
 var mailHistoryCreateRouter = require("./apis/sharepoint/mailHistoryCreate");
 app.use("/apis/sharepoint/mailHistoryCreate", mailHistoryCreateRouter);
 
+var meetingDataUpdateRouter = require("./apis/sharepoint/meetingDataUpdate");
+app.use("/apis/sharepoint/meetingDataUpdate", meetingDataUpdateRouter);
+
 // app.use(express.static(__dirname + "/assets/tax_documents"));
 app.use(express.static(__dirname + "/assets/mailImage"));
 
