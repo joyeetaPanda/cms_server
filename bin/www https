@@ -21,7 +21,6 @@ app.set("port", port);
  */
 const options = {
   pfx: fs.readFileSync(__dirname + "/inorbitcontactmanagementkrahejacom.pfx"),
-
   passphrase: "password",
 };
 var server = https.createServer(options, app);

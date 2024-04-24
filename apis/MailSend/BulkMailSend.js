@@ -152,25 +152,25 @@ router.post("/", async function (req, res, next) {
       .then((response) => {
         // console.log(JSON.stringify(response.data));
         // -------------mail send api-----------
-        if (MAILTO.length > 0) {
-          MAILTO.map((val, index) => {
-            sendMailToUsers(
-              response.data.access_token,
-              val.EMAIL_ID,
-              ccMail,
-              bccMail,
-              val.NAME,
-              index,
-              MAILTO.length,
-              formData.SUBJECT,
-              formData.CONTENT,
-              // mailContent,
-              formData.HTML,
-              attach
-            );
-          });
-        }
-        // res.send("Done without sending mail"); //Comment if sendMailToUsers function called
+        // if (MAILTO.length > 0) {
+        //   MAILTO.map((val, index) => {
+        //     sendMailToUsers(
+        //       response.data.access_token,
+        //       val.EMAIL_ID,
+        //       ccMail,
+        //       bccMail,
+        //       val.NAME,
+        //       index,
+        //       MAILTO.length,
+        //       formData.SUBJECT,
+        //       formData.CONTENT,
+        //       // mailContent,
+        //       formData.HTML,
+        //       attach
+        //     );
+        //   });
+        // }
+        res.send("Done without sending mail"); //Comment if sendMailToUsers function called
         // -------------mail send api end-----------
       })
       .catch((error) => {

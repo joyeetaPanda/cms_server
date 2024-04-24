@@ -1,0 +1,114 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require("../app");
+var debug = require("debug")("server:server");
+// var http = require("http");
+var https = require("https");
+var fs = require("fs");
+// const auto_draft_cleanup_API_call = require("../auto_draft_cleanup_projects/auto_draft_cleanup_API_call");
+// const weekly_report_mail_APIs_call = require("../reports_scheduler/weekly_report_mail_APIs_call");
+// const reminder_mail_API_call = require("../reminder_mail/reminder_mail_API_call");
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+var port = normalizePort(process.env.PORT || "9000");
+app.set("port", port);
+
+/**
+ * Create HTTP server.
+ */
+
+const options = {
+  key: fs.readFileSync("./bin/certificate/key.pem"),
+  passphrase: "password",
+  cert: fs.readFileSync(
+    "./bin/certificate/inorbitcontactmanagement_kraheja_com.crt"
+  ),
+  ca: [
+    fs.readFileSync("./bin/certificate/GeoTrust_TLS_RSA_CA_G1.cer"),
+    fs.readFileSync("./bin/certificate/DigiCert_Global_Root_G2.cer"),
+  ],
+
+  //   fs.readFileSync("./bin/certificate/USERTrustRSAAAACA.crt"),
+
+  // pfx: fs.readFileSync("./bin/certificate/pw.pfx"),
+  // passphrase: "rahul",
+};
+
+// var server = https.createServer(app);
+var server = https.createServer(options, app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+server.listen(
+  port
+  //reminder_mail_API_call(),
+  // , auto_draft_cleanup_API_call
+  // weekly_report_mail_APIs_call()
+);
+server.on("error", onError);
+server.on("listening", onListening);
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== "listen") {
+    throw error;
+  }
+
+  var bind = typeof port === "string" ? "Pipe " + port : "Port " + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case "EACCES":
+      console.error(bind + " requires elevated privileges");
+      process.exit(1);
+      break;
+    case "EADDRINUSE":
+      console.error(bind + " is already in use");
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
+  debug("Listening on " + bind);
+}
