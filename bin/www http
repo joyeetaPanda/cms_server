@@ -6,12 +6,7 @@
 
 var app = require("../app");
 var debug = require("debug")("server:server");
-// var http = require("http");
-var https = require("https");
-var fs = require("fs");
-// const auto_draft_cleanup_API_call = require("../auto_draft_cleanup_projects/auto_draft_cleanup_API_call");
-// const weekly_report_mail_APIs_call = require("../reports_scheduler/weekly_report_mail_APIs_call");
-// const reminder_mail_API_call = require("../reminder_mail/reminder_mail_API_call");
+var http = require("http");
 
 /**
  * Get port from environment and store in Express.
@@ -24,36 +19,13 @@ app.set("port", port);
  * Create HTTP server.
  */
 
-const options = {
-  key: fs.readFileSync("./bin/certificate/key.pem"),
-  passphrase: "password",
-  cert: fs.readFileSync(
-    "./bin/certificate/inorbitcontactmanagement_kraheja_com.crt"
-  ),
-  ca: [
-    fs.readFileSync("./bin/certificate/GeoTrust_TLS_RSA_CA_G1.cer"),
-    fs.readFileSync("./bin/certificate/DigiCert_Global_Root_G2.cer"),
-  ],
-
-  //   fs.readFileSync("./bin/certificate/USERTrustRSAAAACA.crt"),
-
-  // pfx: fs.readFileSync("./bin/certificate/pw.pfx"),
-  // passphrase: "rahul",
-};
-
-// var server = https.createServer(app);
-var server = https.createServer(options, app);
+var server = http.createServer(app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(
-  port
-  //reminder_mail_API_call(),
-  // , auto_draft_cleanup_API_call
-  // weekly_report_mail_APIs_call()
-);
+server.listen(port);
 server.on("error", onError);
 server.on("listening", onListening);
 
