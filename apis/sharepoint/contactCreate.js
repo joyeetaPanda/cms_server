@@ -15,7 +15,6 @@ Payload:-
 
 router.post("/", async function (req, res, next) {
   try {
-    console.log("called contact create");
     let token = req.query.token;
     let contactPayload = req.body;
     axios

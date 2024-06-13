@@ -116,17 +116,15 @@ router.post("/", async function (req, res, next) {
       axios
         .request(configMail)
         .then((responseMail) => {
-          // console.log(JSON.stringify(responseMail.data));
           if (currentIndex == TotalLength - 1) {
-            res.send({
+            res.status(200).send({
               STATUS_CODE: 200,
               MESSAGE: "Mail sent successfully",
             });
           }
         })
         .catch((errorMail) => {
-          // console.log(errorMail);
-          res.send({ error: errorMail, fileName: __filename });
+          res.status(500).send({ error: errorMail, fileName: __filename });
         });
     };
     let data = qs.stringify({
@@ -150,37 +148,35 @@ router.post("/", async function (req, res, next) {
     axios
       .request(config)
       .then((response) => {
-        // console.log(JSON.stringify(response.data));
         // -------------mail send api-----------
-        // if (MAILTO.length > 0) {
-        //   MAILTO.map((val, index) => {
-        //     sendMailToUsers(
-        //       response.data.access_token,
-        //       val.EMAIL_ID,
-        //       ccMail,
-        //       bccMail,
-        //       val.NAME,
-        //       index,
-        //       MAILTO.length,
-        //       formData.SUBJECT,
-        //       formData.CONTENT,
-        //       // mailContent,
-        //       formData.HTML,
-        //       attach
-        //     );
-        //   });
-        // }
-        res.send("Done without sending mail"); //Comment if sendMailToUsers function called
+        if (MAILTO.length > 0) {
+          MAILTO.map((val, index) => {
+            sendMailToUsers(
+              response.data.access_token,
+              val.EMAIL_ID,
+              ccMail,
+              bccMail,
+              val.NAME,
+              index,
+              MAILTO.length,
+              formData.SUBJECT,
+              formData.CONTENT,
+              // mailContent,
+              formData.HTML,
+              attach
+            );
+          });
+        }
+        // res.send("Done without sending mail"); //Comment if sendMailToUsers function called
         // -------------mail send api end-----------
       })
       .catch((error) => {
         // console.log("Mail Catch", error);
-        res.send("Mail access token error:", error);
-        return;
+        res.status(500).send({ message: "Mail access token error:", error });
       });
   } catch (e) {
     // console.log({ error: e, fileName: __filename });
-    res.send({ error: e, fileName: __filename });
+    res.status(500).send({ error: e.message, fileName: __filename });
   }
 });
 

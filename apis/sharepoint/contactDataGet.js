@@ -13,7 +13,7 @@ http://localhost:9000/apis/sharepoint/contactDataGet?token=abcd
 router.get("/", async function (req, res, next) {
   try {
     let token = req.query.token;
-
+    console.log("mdsvjsfk", JSON.stringify(token));
     axios
       .get(
         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('contactmanagementlist')/items?$top=50000`,
@@ -24,6 +24,12 @@ router.get("/", async function (req, res, next) {
         }
       )
       .then((response) => {
+        console.log(
+          "hsgjgs",
+          response.data.value.find(
+            (val) => val.email == "kanav.sharma@bain.co.inabcd"
+          )
+        );
         res.send({ value: response.data.value });
       })
       .catch((error) => {

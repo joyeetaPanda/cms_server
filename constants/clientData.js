@@ -2,17 +2,17 @@
 
 // ---------MS Graph IDs Samishti--------
 
-// const client_id_teams = "7d203557-0b58-4cc6-a0e6-ea307cab4fe2";
-// const client_secret_teams = "eeQ8Q~w-lwo1ECTLrdy7X7FiArU6O8MZEoxbNcrb";
-// const scope_teams = "https://graph.microsoft.com/.default";
-// const tenant_id = "4a65d39e-b3a8-402e-86b0-c1316ba372ba";
+const client_id_teams = "7d203557-0b58-4cc6-a0e6-ea307cab4fe2";
+const client_secret_teams = "eeQ8Q~w-lwo1ECTLrdy7X7FiArU6O8MZEoxbNcrb";
+const scope_teams = "https://graph.microsoft.com/.default";
+const tenant_id = "4a65d39e-b3a8-402e-86b0-c1316ba372ba";
 
 // ---------MS Graph IDs KRC--------
 
-const client_id_teams = "e67b6328-bc60-40cc-a590-2fa1ace9388f";
-const client_secret_teams = "pmf8Q~jTuYih7VCOGqEEqhtgKC2hPRC4TM64ccnP";
-const scope_teams = "https://graph.microsoft.com/.default";
-const tenant_id = "adf953e1-1575-46ec-8398-5d4c7a540570";
+// const client_id_teams = "e67b6328-bc60-40cc-a590-2fa1ace9388f";
+// const client_secret_teams = "pmf8Q~jTuYih7VCOGqEEqhtgKC2hPRC4TM64ccnP";
+// const scope_teams = "https://graph.microsoft.com/.default";
+// const tenant_id = "adf953e1-1575-46ec-8398-5d4c7a540570";
 
 //-----------sharepoint---------
 const grant_type = "client_credentials";
