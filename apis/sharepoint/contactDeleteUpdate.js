@@ -9,15 +9,16 @@ http://localhost:9000/apis/sharepoint/contactDeleteUpdate?token=abcd$contactData
 
 Payload:-
   {
-role:"admin"
+token:abcd,
+contactDataId:123
   }
 
 */
 
 router.post("/", async function (req, res, next) {
   try {
-    let token = req.query.token;
-    let contactDataId = req.query.contactDataId;
+    let token = req.body.token;
+    let contactDataId = req.body.contactDataId;
     axios
       .post(
         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('contactmanagementlist')/items/getbyid('${contactDataId}')`,

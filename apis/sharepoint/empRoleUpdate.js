@@ -16,8 +16,8 @@ role:"admin"
 
 router.post("/", async function (req, res, next) {
   try {
-    let token = req.query.token;
-    let empDataId = req.query.empDataId;
+    let token = req.body.token;
+    let empDataId = req.body.empDataId;
     let empRole = req.body.role;
     axios
       .post(

@@ -5,14 +5,14 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/employeeDetailsGet?token=abcd
+http://localhost:9000/apis/sharepoint/employeeDetailsGet
   
 
 */
 
-router.get("/", async function (req, res, next) {
+router.post("/", async function (req, res, next) {
   try {
-    let token = req.query.token;
+    let token = req.body.token;
 
     axios
       .get(

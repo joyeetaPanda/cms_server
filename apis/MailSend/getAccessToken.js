@@ -3,12 +3,12 @@ var router = express.Router();
 const axios = require("axios");
 const qs = require("qs");
 const clientData = require("../../constants/clientData");
-
+const cors=require("cors")
 /*   
 API url: -   
 http://localhost:9000/apis/MailSend/getAccessToken
 */
-
+router.options("/",cors())
 router.get("/", async function (req, res, next) {
   try {
     const tenant_id = clientData.tenant_id;
@@ -34,7 +34,6 @@ router.get("/", async function (req, res, next) {
     axios
       .request(config)
       .then((response) => {
-        console.log(JSON.stringify(response.data));
         res.send(response.data.access_token);
       })
       .catch((error) => {

@@ -25,6 +25,7 @@ http://localhost:9000/apis/MailSend/BulkMailSend
 router.post("/", async function (req, res, next) {
   try {
     const formData = req.body;
+    console.log("reqData.",formData)
     let fromMail = formData.fromMail;
     let MAILTO = JSON.parse(formData.MAILTO);
     let bcc = JSON.parse(formData.BCC);

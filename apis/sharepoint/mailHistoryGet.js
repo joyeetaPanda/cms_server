@@ -5,18 +5,18 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/mailHistoryGet?token=abcd
+http://localhost:9000/apis/sharepoint/mailHistoryGet
   
 
 */
 
-router.get("/", async function (req, res, next) {
+router.post("/", async function (req, res, next) {
   try {
-    let token = req.query.token;
+    let token = req.body.token;
 
     axios
       .get(
-        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('mailHistory')/items`,
+        `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('mailHistory')/items?$top=50000`,
         {
           headers: {
             Authorization: "Bearer " + token,

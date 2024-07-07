@@ -5,7 +5,7 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/meetingDelete?token=abcd&deleteID=123
+http://localhost:9000/apis/sharepoint/meetingDelete
 
 Payload:-
   {
@@ -16,8 +16,8 @@ role:"admin"
 
 router.post("/", async function (req, res, next) {
   try {
-    let token = req.query.token;
-    let deleteID = req.query.deleteID;
+    let token = req.body.token;
+    let deleteID = req.body.deleteID;
     axios
       .delete(
         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('meetingDetails')/items/getbyid('${deleteID}')`,
@@ -32,7 +32,7 @@ router.post("/", async function (req, res, next) {
         }
       )
       .then((response) => {
-        res.send({ message: "Meeting deleted" });
+        res.send({ message: "Role updated" });
       })
       .catch((error) => {
         console.log(error);

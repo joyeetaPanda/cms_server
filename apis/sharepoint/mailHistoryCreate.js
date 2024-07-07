@@ -5,7 +5,7 @@ const clientData = require("../../constants/clientData");
 
 /*   
 API url: -   
-http://localhost:9000/apis/sharepoint/mailHistoryCreate?token=abcd
+http://localhost:9000/apis/sharepoint/mailHistoryCreate
 
 Payload:-
   {
@@ -14,8 +14,8 @@ Payload:-
 
 router.post("/", async function (req, res, next) {
   try {
-    let token = req.query.token;
-    let mailHistoryPayload = req.body;
+    let token = req.body.token;
+    let mailHistoryPayload = req.body.mailHistoryPayload;
      axios
        .post(
          `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('mailHistory')/items`,

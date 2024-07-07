@@ -1,10 +1,73 @@
-// var createError = require("http-errors");
 var express = require("express");
 var path = require("path");
 var app = express();
 const cors = require("cors");
 const session = require("express-session");
 const fileUpload = require("express-fileupload");
+const helmet = require("helmet");
+
+app.use(
+  helmet({
+    xssFilter: true,
+    frameguard: { action: "deny" },
+  })
+);
+app.disable("x-powered-by");
+
+// Middleware to remove/mask sensitive headers and log requests
+app.use((req, res, next) => {
+  // console.log("Request Method:", req.method);
+  res.removeHeader("X-Powered-By");
+  res.removeHeader("Server");
+  // res.setHeader('X-Powered-By', 'Masked');
+  // res.setHeader('Server', 'Masked');
+  next();
+});
+
+// Middleware to handle CORS preflight requests
+// -------------------------------
+// app.use((req, res, next) => {
+//   const allowedOrigins = ["https://inorbitcontactmanagement.kraheja.com"];
+//   const origin = req.headers.origin;
+//   console.log("header", req.headers.origin);
+
+//   res.header('Access-Control-Allow-Methods', 'GET, POST');
+//   res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+//   res.header("Access-Control-Allow-Credentials", true);
+//   // res.header('Access-Control-Max-Age', '86400'); // Cache preflight response for 24 hours (86400 seconds)
+
+//   const allowedMethods = ['GET', 'POST'];
+//   console.log("Request Method2:",!allowedMethods.includes(req.method));
+
+//   // if (!allowedMethods.includes(req.method)) {
+//   // console.log("Request Method1:", req.method);
+//   //   res.status(405).send('Method Not Allowed');
+//   // }
+
+//   if (allowedOrigins.includes(origin)) {
+//     res.setHeader("Access-Control-Allow-Origin", origin);
+//     if (req.method === 'OPTIONS') {
+//       console.log("Request Method:", req.method);
+//          res.sendStatus(204);
+//       }
+//   } else {
+//     return res.sendStatus(204);
+//   }
+//   next();
+// });
+
+// Middleware to set cache control headers
+app.use((req, res, next) => {
+  res.setHeader(
+    "Cache-Control",
+    "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0"
+  );
+  res.setHeader("Pragma", "no-cache");
+  res.setHeader("Expires", "0");
+  res.setHeader("X-Permitted-Cross-Domain-Policies", "none");
+
+  next();
+});
 
 app.use(cors());
 app.use(express.json());
@@ -15,21 +78,31 @@ app.use(
     saveUninitialized: false,
   })
 );
+
 app.use(fileUpload());
 
 // app.set('view engine', 'html');
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "jade");
 
-// app.use((req, res, next) => {
-//   const allowedOrigins = ["https://14.142.244.14:443/","https://inorbitcontactmanagement.kraheja.com"];
-//   const origin = req.headers.origin;
-//   console.log("header", req.headers.origin);
-//   if (allowedOrigins.includes(origin)) {
-//     res.setHeader("Access-Control-Allow-Origin", origin);
-//     return next();
-//   }
-// });
+// Middleware to block disallowed methods
+app.use((req, res, next) => {
+  const allowedMethods = ["GET", "POST"];
+  // console.log("Request Method:", req.method);
+
+  if (!allowedMethods.includes(req.method)) {
+    res.status(405).send("Method Not Allowed");
+  } else {
+    next();
+  }
+});
+
+// Middleware to remove/mask sensitive headers again after all processing
+app.use((req, res, next) => {
+  console.log("Headers after processing:");
+  console.log(res.getHeaders());
+  next();
+});
 
 var mailAccessToken = require("./apis/MailSend/getAccessToken");
 app.use("/apis/MailSend/getAccessToken", mailAccessToken);
@@ -92,6 +165,7 @@ var mailHistoryCreateRouter = require("./apis/sharepoint/mailHistoryCreate");
 app.use("/apis/sharepoint/mailHistoryCreate", mailHistoryCreateRouter);
 
 var meetingDataUpdateRouter = require("./apis/sharepoint/meetingDataUpdate");
+const { log } = require("console");
 app.use("/apis/sharepoint/meetingDataUpdate", meetingDataUpdateRouter);
 
 // app.use(express.static(__dirname + "/assets/tax_documents"));
