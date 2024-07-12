@@ -11,8 +11,8 @@ API url: -
 http://localhost:9000/apis/MailSend/BulkMailSend
  
 
-   [ {"EMAIL_ID":"rahul.rohilla1081@gmail.com",
-    "NAME":"RAHUL",
+   [ {"EMAIL_ID":"joyeeta.b@samishti.com",
+    "NAME":"Joyeeta",
 "SUBJECT":"abcd",
 "CONTENT":"abcd"
 }]

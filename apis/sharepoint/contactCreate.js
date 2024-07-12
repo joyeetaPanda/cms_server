@@ -22,7 +22,7 @@ router.post("/", async function (req, res, next) {
     
     let contactPayload = req.body.contactPayload;
     function validateInput(input) {
-      const invalidChars = /[<>:;\"\\\[\]{}()#$%!+\-*^*]/;
+      const invalidChars = /[<>;\"\\\[\]{}()#$%!+\*^*]/;
       return !invalidChars.test(input);
     }
     function hasInvalidChars(obj) {
