@@ -18,6 +18,8 @@ router.post("/", async function (req, res, next) {
   try {
     let token = req.body.token;
     let meetingPayload = req.body.meetingPayload;
+    console.log("called meeting create");
+
     function validateInput(input) {
       const invalidChars = /[<>:;\"\\\[\]{}()#$%!+\-*^*]/;
       return !invalidChars.test(input);

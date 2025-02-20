@@ -18,14 +18,20 @@ router.post("/", async function (req, res, next) {
   try {
     let token = req.body.token;
     let empDataId = req.body.empDataId;
-    let empRole = req.body.role;
+    let updateData = {};
+    if (req.body.role) {
+      updateData = { role: req.body.role };
+    }
+    if (req.body.lastLog) {
+      updateData = { lastLog: req.body.lastLog };
+    }
     axios
       .post(
         `https://${clientData.tenant}/sites/${clientData.site}/_api/Web/Lists/getbytitle('employeeDetails')/items/getbyid('${empDataId}')`,
         {
           __metadata: { type: "SP.Data.EmployeeDetailsListItem" },
           // designation: "asdas",
-          role: empRole,
+          ...updateData,
         },
 
         {

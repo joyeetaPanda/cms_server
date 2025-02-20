@@ -1,0 +1,3 @@
+cd c:/
+cd Samisti/CMS_SERVER/bin
+node www

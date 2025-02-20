@@ -18,6 +18,7 @@ router.post("/", async function (req, res, next) {
     let token = req.body.token;
     let contactDataId = req.body.contactDataId;
     let contactPayload=req.body.contactPayload
+    delete contactPayload.leasingMember;
 console.log("hsadfhags",contactPayload);
     function validateInput(input) {
       const invalidChars = /[<>:;\"\\\[\]{}()#$%!+\-*^*]/;
