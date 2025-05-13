@@ -37,6 +37,7 @@
     "nodemailer": "^6.9.7",
     "path": "^0.12.7",
     "pem": "^1.14.6",
+    "pm2": "^6.0.5",
     "promise-queue": "^2.2.5",
     "request": "^2.88.2",
     "springedge": "^1.0.6",

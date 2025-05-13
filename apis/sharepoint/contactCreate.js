@@ -21,7 +21,9 @@ router.post("/", async function (req, res, next) {
     let token = req.body.token;
     let code = req.body.code;
     let contactPayload = req.body.contactPayload;
-
+    if (contactPayload.company) {
+      contactPayload.company = contactPayload.company.trim();
+    }
     const decrypt = (salt, encoded) => {
       const textToChars = (text) => text.split("").map((c) => c.charCodeAt(0));
       const applySaltToChar = (code) =>

@@ -17,7 +17,7 @@ router.get("/", async function (req, res, next) {
     authData.append("client_id", clientData.client_id);
     authData.append("client_secret", clientData.client_secret);
     authData.append("resource", clientData.resource);
-
+    
     axios
       .post(
         `https://accounts.accesscontrol.windows.net/${clientData.resourceId}/tokens/OAuth/2/`,

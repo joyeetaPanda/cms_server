@@ -29,24 +29,24 @@ const grant_type = "client_credentials";
 
 // ----------------
 // KRC Production
-const client_id =
-  "3739e88f-b86e-4800-a47e-e73fb01feae4@adf953e1-1575-46ec-8398-5d4c7a540570";
-const client_secret = "g5omt5SPpXamABGa/Y2k3KXugE0KynWTRmqnZFgdQq0=";
-const resource =
-  "00000003-0000-0ff1-ce00-000000000000/kraheja.sharepoint.com@adf953e1-1575-46ec-8398-5d4c7a540570";
-const tenant = "kraheja.sharepoint.com";
-const site = "InorbitContactManagementSystem";
-const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
-// -----------------
-// KRC Testing
 // const client_id =
-//   "430e1bf2-7683-4e66-bdb3-144ec5d99a3a@adf953e1-1575-46ec-8398-5d4c7a540570";
-// const client_secret = "69y7F/LjfseX53Ykg2u6P5GyvHobbTV/Y1hYvCCEl9w=";
+//   "3739e88f-b86e-4800-a47e-e73fb01feae4@adf953e1-1575-46ec-8398-5d4c7a540570";
+// const client_secret = "g5omt5SPpXamABGa/Y2k3KXugE0KynWTRmqnZFgdQq0=";
 // const resource =
 //   "00000003-0000-0ff1-ce00-000000000000/kraheja.sharepoint.com@adf953e1-1575-46ec-8398-5d4c7a540570";
 // const tenant = "kraheja.sharepoint.com";
-// const site = "InorbitContactManagementSystem_Dev";
+// const site = "InorbitContactManagementSystem";
 // const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
+// -----------------
+// KRC Testing
+const client_id =
+  "430e1bf2-7683-4e66-bdb3-144ec5d99a3a@adf953e1-1575-46ec-8398-5d4c7a540570";
+const client_secret = "69y7F/LjfseX53Ykg2u6P5GyvHobbTV/Y1hYvCCEl9w=";
+const resource =
+  "00000003-0000-0ff1-ce00-000000000000/kraheja.sharepoint.com@adf953e1-1575-46ec-8398-5d4c7a540570";
+const tenant = "kraheja.sharepoint.com";
+const site = "InorbitContactManagementSystem_Dev";
+const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
 module.exports = {
   grant_type,
   client_id,
