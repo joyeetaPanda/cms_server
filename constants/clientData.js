@@ -47,6 +47,10 @@ const resource =
 const tenant = "kraheja.sharepoint.com";
 const site = "InorbitContactManagementSystem_Dev";
 const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
+const sharepoint_app_client_id = "1cd3115e-4169-4449-88f7-ee72549534d3";
+const scope = "https://kraheja.sharepoint.com/.default";
+const client_assertion_type =
+  "urn:ietf:params:oauth:client-assertion-type:jwt-bearer";
 module.exports = {
   grant_type,
   client_id,
@@ -59,4 +63,7 @@ module.exports = {
   client_secret_teams,
   scope_teams,
   tenant_id,
+  sharepoint_app_client_id,
+  scope,
+  client_assertion_type,
 };

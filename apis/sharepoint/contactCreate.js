@@ -24,6 +24,7 @@ router.post("/", async function (req, res, next) {
     if (contactPayload.company) {
       contactPayload.company = contactPayload.company.trim();
     }
+    contactPayload.createdOn= new Date()
     const decrypt = (salt, encoded) => {
       const textToChars = (text) => text.split("").map((c) => c.charCodeAt(0));
       const applySaltToChar = (code) =>

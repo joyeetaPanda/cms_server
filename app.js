@@ -128,6 +128,10 @@ app.use(
   require("./apis/sharepoint/getAccessToken")
 );
 app.use(
+  "/apis/sharepoint/clientAssertion",
+  require("./apis/sharepoint/clientAssertion")
+);
+app.use(
   "/apis/sharepoint/contactDataGet",
   require("./apis/sharepoint/contactDataGet")
 );
