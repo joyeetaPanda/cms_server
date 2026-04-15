@@ -14,7 +14,7 @@ http://localhost:9000/apis/MailSend/BulkMailSend
    [ {"EMAIL_ID":"joyeeta.b@samishti.com",
     "NAME":"Joyeeta",
 "SUBJECT":"abcd",
-"CONTENT":"abcd"
+"CONTENT":"abcd" 
 }]
 
 */

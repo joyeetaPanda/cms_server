@@ -192,6 +192,14 @@ app.use(
   require("./apis/sharepoint/meetingDelete")
 );
 app.use(
+  "/apis/sharepoint/adoptionTrackingDataGet",
+  require("./apis/sharepoint/adoptionTrackingDataGet")
+);
+app.use(
+  "/apis/sharepoint/loginDataCreate",
+  require("./apis/sharepoint/loginDataCreate")
+);
+app.use(
   "/apis/sharepoint/mailHistoryCreate",
   require("./apis/sharepoint/mailHistoryCreate")
 );

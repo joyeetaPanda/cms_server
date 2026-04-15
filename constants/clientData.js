@@ -1,5 +1,8 @@
 // https://inorbitcontactmanagement.kraheja.com
-
+const sharepoint_app_client_id = "1cd3115e-4169-4449-88f7-ee72549534d3";
+const scope = "https://kraheja.sharepoint.com/.default";
+const client_assertion_type =
+  "urn:ietf:params:oauth:client-assertion-type:jwt-bearer";
 // ---------MS Graph IDs Samishti--------
 
 const client_id_teams = "7d203557-0b58-4cc6-a0e6-ea307cab4fe2";
@@ -29,28 +32,25 @@ const grant_type = "client_credentials";
 
 // ----------------
 // KRC Production
-// const client_id =
-//   "3739e88f-b86e-4800-a47e-e73fb01feae4@adf953e1-1575-46ec-8398-5d4c7a540570";
-// const client_secret = "g5omt5SPpXamABGa/Y2k3KXugE0KynWTRmqnZFgdQq0=";
-// const resource =
-//   "00000003-0000-0ff1-ce00-000000000000/kraheja.sharepoint.com@adf953e1-1575-46ec-8398-5d4c7a540570";
-// const tenant = "kraheja.sharepoint.com";
-// const site = "InorbitContactManagementSystem";
-// const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
-// -----------------
-// KRC Testing
 const client_id =
-  "430e1bf2-7683-4e66-bdb3-144ec5d99a3a@adf953e1-1575-46ec-8398-5d4c7a540570";
-const client_secret = "69y7F/LjfseX53Ykg2u6P5GyvHobbTV/Y1hYvCCEl9w=";
+  "3739e88f-b86e-4800-a47e-e73fb01feae4@adf953e1-1575-46ec-8398-5d4c7a540570";
+const client_secret = "g5omt5SPpXamABGa/Y2k3KXugE0KynWTRmqnZFgdQq0=";
 const resource =
   "00000003-0000-0ff1-ce00-000000000000/kraheja.sharepoint.com@adf953e1-1575-46ec-8398-5d4c7a540570";
 const tenant = "kraheja.sharepoint.com";
-const site = "InorbitContactManagementSystem_Dev";
+const site = "InorbitContactManagementSystem";
 const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
-const sharepoint_app_client_id = "1cd3115e-4169-4449-88f7-ee72549534d3";
-const scope = "https://kraheja.sharepoint.com/.default";
-const client_assertion_type =
-  "urn:ietf:params:oauth:client-assertion-type:jwt-bearer";
+// -----------------
+// KRC Testing
+// const client_id =
+//   "430e1bf2-7683-4e66-bdb3-144ec5d99a3a@adf953e1-1575-46ec-8398-5d4c7a540570";
+// const client_secret = "69y7F/LjfseX53Ykg2u6P5GyvHobbTV/Y1hYvCCEl9w=";
+// const resource =
+//   "00000003-0000-0ff1-ce00-000000000000/kraheja.sharepoint.com@adf953e1-1575-46ec-8398-5d4c7a540570";
+// const tenant = "kraheja.sharepoint.com";
+// const site = "InorbitContactManagementSystem_Dev";
+// const resourceId = "adf953e1-1575-46ec-8398-5d4c7a540570";
+
 module.exports = {
   grant_type,
   client_id,
